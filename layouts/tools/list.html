@@ -1,0 +1,4 @@
+{{ define "main" }}
+  {{- "<!-- Preact component injection -->" | safeHTML }}
+  {{ partial "preact.html" (dict "widget" (dict "js" "js/mash-efficiency.js") "data" (dict "name" "I am built with Hugo")) }}
+{{ end }}
