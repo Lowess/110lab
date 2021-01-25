@@ -1,8 +1,18 @@
 ---
 title: "#010 - Saison d'été"
 style: ["saison"]
-date: 2020-09-20T10:30:00+01:00
-abv: 5.6
+date: 2020-09-20T10:31:00+01:00
+abv: 7.4
+
+# Mash efficiency widget - Receipe details
+receipe:
+  # Malts used in grams
+  malts:
+    pilsner: 4200
+    munich: 1400
+    sugar: 380
+  density: 1.075
+  volume: 18
 
 images:
   - "images/showcase/impala.png"

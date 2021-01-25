@@ -1,8 +1,20 @@
 ---
 title: "#004 - Deluxe"
 style: ["Ambrée"]
-date: 2020-02-17T10:30:00+06:00
+date: 2020-02-17T10:31:00+06:00
 abv: 5.6
+
+# Mash efficiency widget - Receipe details
+# receipe:
+#   # Malts used in grams
+#   malts:
+#     pilsner: 7000
+#     wheat: 2000
+#     wheat-malt: 2000
+#     wheat: 1200
+#     sugar: 600
+#   density: 1.031
+#   volume: 22
 
 images:
   - "images/showcase/impala.png"

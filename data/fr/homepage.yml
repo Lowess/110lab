@@ -54,7 +54,7 @@ features:
 ############################# promo ############################
 promo:
   enable : true
-  image : "images/watch.png"
+  image : "images/75cl.png"
   title : "Des bières locales qui ont du goût !"
   content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vel labore, deleniti minima
             nisi, velit atque quaerat impedit ea maxime sunt accusamus at obcaecati dolor iure iusto omnis quis eum.
@@ -69,7 +69,7 @@ about_product:
   items:
     # about product item loop
     - image : "images/showcase/impala.png"
-      title : "Lorem ipsum dolor sit amet."
+      title : "L'Impala - Chouchou de l'année 2020"
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur
             sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit
             quas, quo harum deserunt consequatur cumque!"
@@ -79,15 +79,15 @@ about_product:
         link : "#"
 
     # about product item loop
-    - image : "images/showcase/showcase-3.png"
-      title : "Lorem ipsum dolor sit amet."
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur
-            sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit
-            quas, quo harum deserunt consequatur cumque!"
-      button:
-        enable : false
-        label : "Check Features"
-        link : "#"
+    # - image : "images/showcase/impala.png"
+    #   title : "Lorem ipsum dolor sit amet."
+    #   content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur
+    #         sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit
+    #         quas, quo harum deserunt consequatur cumque!"
+    #   button:
+    #     enable : false
+    #     label : "Check Features"
+    #     link : "#"
 
 
 #################################### Products ########################
@@ -99,8 +99,8 @@ products:
 ################################## Subscription ###################
 subscription:
   enable : true
-  bg_image : "images/call-to-action.jpg"
-  title : "Get Product Updates"
+  bg_image : "images/75cl.png"
+  title : "Recevoir nous nouvelles créations"
   content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
   placeholder : "Your Email Address Here"
 
@@ -113,17 +113,17 @@ testimonial:
     # testimonial item loop
     - name : "Florian Dambrine"
       designation : "110 Lab"
-      image : "images/avatar.png"
+      image : "images/person-male.png"
       content : "Très bonne IPA au goût fleuri ! L'Impala est ma préférée de cette année 2020"
 
     # testimonial item loop
     - name : "Pauline Leconte"
       designation : "110 Lab"
-      image : "images/avatar.png"
-      content : "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+      image : "images/person-female.png"
+      content : "Des bières qui valent le détour !"
 
     # testimonial item loop
     - name : "Antoine Maincent"
       designation : "110 Lab"
-      image : "images/avatar.png"
-      content : "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+      image : "images/person-male.png"
+      content : "Un plaisir de boire de la bière locale et de découvrir les créations du 110 Lab"

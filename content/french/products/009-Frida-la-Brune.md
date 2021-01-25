@@ -1,8 +1,20 @@
 ---
 title: "#009 - Frida la brune"
-style: ["Stout"]
+style: ["Brune", "Amber"]
 date: 2020-09-20T10:30:00+01:00
 abv: 5.6
+
+# Mash efficiency widget - Receipe details
+receipe:
+  # Malts used in grams
+  malts:
+    pilsner: 4000
+    cara: 1000
+    cara: 1000
+    special-b: 500
+    barley: 500
+  density: 1.068
+  volume: 18
 
 images:
   - "images/showcase/impala.png"

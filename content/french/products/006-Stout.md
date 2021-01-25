@@ -1,8 +1,20 @@
 ---
 title: "#006 - Stout"
 style: ["Stout"]
-date: 2020-03-01T10:30:00+01:00
+date: 2020-03-01T10:31:00+01:00
 abv: 5.6
+
+# Mash efficiency widget - Receipe details
+receipe:
+  # Malts used in grams
+  malts:
+    pale: 5500
+    chocolate: 700
+    cara: 350
+    oats: 1000
+    sugar: 500
+  density: 1.070
+  volume: 18
 
 images:
   - "images/showcase/impala.png"

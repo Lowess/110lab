@@ -1,10 +1,19 @@
 ---
-title: "Impala"
+title: "#001 - Impala"
 style: ["IPA"]
 date: 2019-07-01T10:30:00+06:00
 abv: 5.6
 images:
   - "images/showcase/impala.png"
+
+# Mash efficiency widget - Receipe details
+receipe:
+  # Malts used in grams
+  malts:
+    pale: 5000
+    sugar: 400
+  density: 1.068
+  volume: 18
 
 # meta description
 description : "this is meta description"

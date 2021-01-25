@@ -1,8 +1,16 @@
 ---
-title: "#008 - Stout"
-style: ["Stout"]
-date: 2020-06-26T10:30:00+01:00
+title: "#008 - Smash Vienna"
+style: ["Vienna"]
+date: 2020-06-26T10:31:00+01:00
 abv: 5.6
+
+# Mash efficiency widget - Receipe details
+receipe:
+  # Malts used in grams
+  malts:
+    vienna: 7000
+  density: 1.114
+  volume: 18
 
 images:
   - "images/showcase/impala.png"

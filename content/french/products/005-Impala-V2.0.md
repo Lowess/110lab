@@ -4,6 +4,15 @@ style: ["Ambrée"]
 date: 2020-03-01T10:30:00+01:00
 abv: 5.6
 
+# Mash efficiency widget - Receipe details
+receipe:
+  # Malts used in grams
+  malts:
+    pale: 5000
+    sugar: 400
+  density: 1.056
+  volume: 19
+
 images:
   - "images/showcase/impala.png"
 

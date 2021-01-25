@@ -2,7 +2,17 @@
 title: "#007 - Imperial IPA"
 style: ["Imperial", "IPA"]
 date: 2020-06-26T10:30:00+01:00
-abv: 5.6
+abv: 9.0
+
+# Mash efficiency widget - Receipe details
+receipe:
+  # Malts used in grams
+  malts:
+    pale: 7000
+    munich: 700
+    oats: 500
+  density: 1.094
+  volume: 18
 
 images:
   - "images/showcase/impala.png"

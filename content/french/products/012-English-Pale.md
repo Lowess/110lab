@@ -1,20 +1,19 @@
 ---
-title: "#003 - Trapiste"
-style: ["Ambrée"]
-date: 2020-02-17T10:30:00+06:00
-abv: 5.6
+title: "#012 - English Pale"
+style: ["english", "pale"]
+date: 2021-01-02T10:31:00+01:00
+abv: 6.8
 
 # Mash efficiency widget - Receipe details
 receipe:
   # Malts used in grams
   malts:
-    pilsner: 7000
-    wheat: 2000
-    wheat-malt: 2000
-    wheat: 1200
-    sugar: 600
-  density: 1.093
-  volume: 25
+    barley: 400
+    pilsner: 5000
+    cara: 200
+    cara: 800
+  density: 1.068
+  volume: 18
 
 images:
   - "images/showcase/impala.png"

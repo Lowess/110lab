@@ -2,7 +2,21 @@
 title: "#002 - Ouche Nanon"
 style: ["Ambrée"]
 date: 2019-12-03T10:30:00+06:00
-abv: 5.6
+abv: 6.5
+
+# Mash efficiency widget - Receipe details
+receipe:
+  # Malts used in grams
+  malts:
+    pilsner: 4900
+    munich: 350
+    cara: 350
+    cara: 50
+    special-b: 70
+    barley: 350
+    sugar: 300
+  density: 1.068
+  volume: 18
 
 images:
   - "images/showcase/impala.png"

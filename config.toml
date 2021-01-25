@@ -7,7 +7,7 @@ summarylength = "20"
 # google analytics
 googleAnalytics = "" # Ex: UA-123-45
 # disable language
-disableLanguages = [] # disable language from here
+disableLanguages = ["en"] # disable language from here
 
 defaultContentLanguage = "fr"
 
@@ -66,7 +66,7 @@ URL = "blog"
 weight = 3
 
 [[menu.main]]
-name = "Brewers"
+name = "Team"
 URL = "brewers"
 weight = 4
 

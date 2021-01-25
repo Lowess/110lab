@@ -1,20 +1,18 @@
 ---
-title: "#003 - Trapiste"
-style: ["Ambrée"]
-date: 2020-02-17T10:30:00+06:00
+title: "#011 - Porter 66"
+style: ["porter", "fruits"]
+date: 2021-01-02T10:30:00+01:00
 abv: 5.6
 
 # Mash efficiency widget - Receipe details
 receipe:
   # Malts used in grams
   malts:
-    pilsner: 7000
-    wheat: 2000
-    wheat-malt: 2000
-    wheat: 1200
-    sugar: 600
-  density: 1.093
-  volume: 25
+    pale: 5000
+    chocolate: 300
+    fruits: 2000
+  density: 1.047
+  volume: 18
 
 images:
   - "images/showcase/impala.png"
