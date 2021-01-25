@@ -1,18 +1,135 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
-  <sitemap>
-    <loc>https://lowess.github.io/110lab/en/sitemap.xml</loc>
-    
-      <lastmod>2019-10-17T11:22:16+06:00</lastmod>
-    
-  </sitemap>
+  <url>
+    <loc>https://lowess.github.io/110lab/brewers/florian-dambrine/</loc>
+  </url>
   
-  <sitemap>
-    <loc>https://lowess.github.io/110lab/fr/sitemap.xml</loc>
-    
-      <lastmod>2020-09-20T10:30:00+01:00</lastmod>
-    
-  </sitemap>
+  <url>
+    <loc>https://lowess.github.io/110lab/brewers/pauline-leconte/</loc>
+  </url>
   
-</sitemapindex>
+  <url>
+    <loc>https://lowess.github.io/110lab/brewers/julien-bruyere/</loc>
+  </url>
+  
+  <url>
+    <loc>https://lowess.github.io/110lab/products/013-impala-citra-amarillo/</loc>
+    <lastmod>2021-01-02T10:32:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lowess.github.io/110lab/</loc>
+    <lastmod>2021-01-02T10:32:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lowess.github.io/110lab/products/</loc>
+    <lastmod>2021-01-02T10:32:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lowess.github.io/110lab/products/012-english-pale/</loc>
+    <lastmod>2021-01-02T10:31:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lowess.github.io/110lab/products/011-porter-66/</loc>
+    <lastmod>2021-01-02T10:30:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lowess.github.io/110lab/products/010-saison-d-ete/</loc>
+    <lastmod>2020-09-20T10:31:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lowess.github.io/110lab/products/009-frida-la-brune/</loc>
+    <lastmod>2020-09-20T10:30:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lowess.github.io/110lab/products/008-smash-a-vienne/</loc>
+    <lastmod>2020-06-26T10:31:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lowess.github.io/110lab/products/007-imperial-ipa/</loc>
+    <lastmod>2020-06-26T10:30:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lowess.github.io/110lab/products/006-stout/</loc>
+    <lastmod>2020-03-01T10:31:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lowess.github.io/110lab/products/005-impala-v2.0/</loc>
+    <lastmod>2020-03-01T10:30:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lowess.github.io/110lab/products/004-deluxe/</loc>
+    <lastmod>2020-02-17T10:31:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lowess.github.io/110lab/products/003-trapiste/</loc>
+    <lastmod>2020-02-17T10:30:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lowess.github.io/110lab/products/002-ouch-nanon/</loc>
+    <lastmod>2019-12-03T10:30:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lowess.github.io/110lab/blog/</loc>
+    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lowess.github.io/110lab/blog/2021-01-08-welcome-2021/</loc>
+    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lowess.github.io/110lab/products/001-impala/</loc>
+    <lastmod>2019-07-01T10:30:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lowess.github.io/110lab/tools/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lowess.github.io/110lab/brewers/antoine-maincent/</loc>
+  </url>
+  
+  <url>
+    <loc>https://lowess.github.io/110lab/brewers/</loc>
+  </url>
+  
+  <url>
+    <loc>https://lowess.github.io/110lab/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://lowess.github.io/110lab/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>https://lowess.github.io/110lab/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>https://lowess.github.io/110lab/privacy-policy/</loc>
+  </url>
+  
+  <url>
+    <loc>https://lowess.github.io/110lab/terms-conditions/</loc>
+  </url>
+  
+</urlset>
