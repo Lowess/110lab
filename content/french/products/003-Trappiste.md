@@ -1,6 +1,6 @@
 ---
-title: "#003 - Trapiste"
-style: ["Ambrée"]
+title: "#003 - Trappiste"
+style: ["Trappiste", "Belgium"]
 date: 2020-02-17T10:30:00+06:00
 abv: 5.6
 
