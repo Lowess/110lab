@@ -2,35 +2,73 @@
 new_page_extension: md
 auto_deploy: false
 admin_path: "/static/admin"
-webhook_url: 
+webhook_url:
 sections:
+- type: heading
+  label: Site
 - type: directory
-  path: content
-  label: Pages
-  create: all
+  path: data/fr/
+  label: Home
+  create: none
   match: "*"
+  templates:
+  - home
+
 - type: directory
-  path: content/french
-  label: French
-  create: all
+  path: content/french/contact
+  label: Contact
+  create: documents
   match: "**/*"
+  templates:
+  - contact
+
 - type: directory
-  path: content/english
-  label: English
-  create: all
+  path: content/french/products
+  label: Products
+  create: documents
   match: "**/*"
-upload_dir: static/uploads
-public_path: "/uploads"
+  templates:
+  - products
+
+- type: directory
+  path: content/french/brewers
+  label: Brewers
+  create: none
+  match: _index.md
+  templates:
+  - brewers
+
+- type: directory
+  path: content/french/terms-condition
+  label: Terms-Condition
+  create: none
+  match: "**/*"
+  exclude: _index.md
+  templates:
+  - terms-condition
+
+
+- type: heading
+  label: Configuration
+- type: directory
+  path: "."
+  label: Configuration
+  create: all
+  match: "*.toml"
+  new_doc_ext: toml
+
+upload_dir: static/images
+public_path: images
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
 build:
   preview_env:
-  - HUGO_ENV=staging
   - HUGO_VERSION=0.80.0
   preview_output_directory: public
-  preview_docker_image: forestryio/hugo:latest
+  preview_docker_image: peaceiris/hugo:v0.80.0-mod
   mount_path: "/srv"
   working_dir: "/srv"
-  instant_preview_command: hugo server -D -E -F --renderToDisk -d public
+  instant_preview_command: server -D -E -F --port 8080 --bind 0.0.0.0 --renderToDisk
+    -d public
 version: 0.80.0

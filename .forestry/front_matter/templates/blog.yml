@@ -1,0 +1,28 @@
+---
+label: Partners
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: description
+  label: description
+  description: this is meta description
+- type: file
+  name: banner
+  label: banner
+- type: text
+  name: weight
+  label: weight
+- type: field_group_list
+  name: partners
+  label: partners
+  fields:
+  - type: text
+    name: name
+    label: name
+    description: Name of the partner
+  - type: text
+    name: logo
+    label: Logo of the partner

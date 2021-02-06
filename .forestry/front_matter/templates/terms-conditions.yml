@@ -1,0 +1,18 @@
+---
+label: Project
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: description
+  label: description
+  description: this is meta description
+- type: file
+  name: banner
+  label: banner
+- type: file
+  name: photo
+  label: photo
+  description: photo on side of text

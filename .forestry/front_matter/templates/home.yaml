@@ -1,0 +1,15 @@
+---
+label: Home
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: file
+  name: banner
+  label: banner
+  description: page header background image
+- type: file
+  name: poster
+  label: poster
+  description: affiche transition

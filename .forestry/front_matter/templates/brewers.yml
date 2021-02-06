@@ -1,0 +1,15 @@
+---
+label: News
+hide_body: true
+fields:
+- type: field_group_list
+  name: news
+  label: news
+  fields:
+  - type: text
+    name: instagram_post
+    label: instagram_post
+    description: Exemple https://www.instagram.com/p/B__LqL4nvE_/
+  - type: boolean
+    name: instagram_caption
+    label: instagram_caption

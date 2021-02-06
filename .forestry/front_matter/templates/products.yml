@@ -1,0 +1,39 @@
+---
+label: Artist
+hide_body: false
+fields:
+- name: title
+  label: Titre
+  type: text
+- name: promoted
+  type: number
+  description: Valeur entre 0 et 100.
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+  label: Promotion
+- name: categories
+  label: Lieux / Origine
+  description: Provenance de l'artiste (Liste de villes séparés par une virgule)
+  type: tag_list
+- name: banner
+  type: file
+  label: Bannière
+  description: Bannière image principale
+  config:
+    maxSize: 64
+- name: gallery
+  type: image_gallery
+  label: Gallerie de photos de l'artiste
+- type: field_group_list
+  name: social
+  label: Réseaux sociaux
+  fields:
+  - name: link
+    type: text
+    config:
+      required: false
+    label: Lien
