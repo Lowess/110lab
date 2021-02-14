@@ -93,7 +93,7 @@ about_product:
 #################################### Products ########################
 products:
   enable : true
-  title : "Nos production"
+  title : "Nos productions"
 
 
 ################################## Subscription ###################

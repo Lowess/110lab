@@ -11,6 +11,8 @@ disableLanguages = ["en"] # disable language from here
 
 defaultContentLanguage = "fr"
 
+removePathAccents = true
+
 [taxonomies]
   category = "categories"
   tag = "tags"
