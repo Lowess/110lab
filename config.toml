@@ -106,8 +106,9 @@ weight = 4
 
 ########################### Default parameters ##########################
 [params]
-logo = "images/110lab-logo.svg"
-logo_width = "200px"
+# logo = "images/110lab-logo.svg"
+logo = "images/110lab-logo.png"
+logo_width = "100px"
 # Meta data
 description = "This is meta description"
 author = "Themefisher"
