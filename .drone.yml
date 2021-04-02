@@ -4,7 +4,8 @@ node_image: &node_image
   image: lowess/preact-cli:latest
 
 hugo_env: &hugo_env
-  BASE_URL: https://${DRONE_REPO_OWNER,,}.github.io/${DRONE_REPO_NAME}/
+  BASE_URL: https://www.110lab.fr/
+  #BASE_URL: https://${DRONE_REPO_OWNER,,}.github.io/${DRONE_REPO_NAME}/
 
 when_prod: &when_prod
   when:

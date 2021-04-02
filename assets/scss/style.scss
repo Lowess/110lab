@@ -655,3 +655,10 @@ textarea.form-control {
 svg {
   display: block;
 }
+
+.maintenance {
+  hr {
+    background-color: $primary-color;
+  }
+  height: 100vh;
+}

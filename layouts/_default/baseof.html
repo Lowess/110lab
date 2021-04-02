@@ -2,9 +2,14 @@
 <html lang="{{ with site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
     {{- partial "head.html" . -}}
     <body id="body">
-        {{- partial "preloader.html" . -}}
-        {{- partial "header.html" . -}}
-        {{- block "main" . }}{{- end }}
-        {{- partial "footer.html" . -}}
+        {{ if .Site.Params.maintenance.enable }}
+            {{- partial "maintenance.html" . -}}
+        {{ else }}
+
+            {{- partial "preloader.html" . -}}
+            {{- partial "header.html" . -}}
+            {{- block "main" . }}{{- end }}
+            {{- partial "footer.html" . -}}
+        {{ end }}
     </body>
 </html>
