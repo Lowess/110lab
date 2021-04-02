@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Terms &amp; Conditions on 110 Lab</title>
-    <link>https://110lab.fr/terms-conditions/</link>
+    <link>https://www.110lab.fr/terms-conditions/</link>
     <description>Recent content in Terms &amp; Conditions on 110 Lab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <copyright>Designed &amp; Developed By [Florian Dambrine](http://floriandambrine.com/)</copyright><atom:link href="https://110lab.fr/terms-conditions/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Designed &amp; Developed By [Florian Dambrine](http://floriandambrine.com/)</copyright><atom:link href="https://www.110lab.fr/terms-conditions/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
