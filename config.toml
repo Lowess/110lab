@@ -59,8 +59,13 @@ weight = 1
 
 [[menu.main]]
 name = "Nos Bières"
-URL = "products"
+URL = "beers"
 weight = 2
+
+[[menu.main]]
+name = "Boutique"
+URL = "t-shirt"
+weight = 3
 
 [[menu.main]]
 name = "Blog"

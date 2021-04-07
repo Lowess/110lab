@@ -2,7 +2,7 @@
 new_page_extension: md
 auto_deploy: false
 admin_path: "/static/admin"
-webhook_url: 
+webhook_url:
 sections:
 - type: heading
   label: Site
@@ -21,12 +21,12 @@ sections:
   templates:
   - contact
 - type: directory
-  path: content/french/products
-  label: Products
+  path: content/french/beers
+  label: Bières
   create: documents
   match: "**/*"
   templates:
-  - products
+  - beers
 - type: directory
   path: content/french/brewers
   label: Brewers

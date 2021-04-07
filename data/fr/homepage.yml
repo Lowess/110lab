@@ -3,58 +3,50 @@ banner:
   enable : true
   title : "Brasserie Expérimentale"
   content : "Amateurs de bières depuis bien trop longtemps"
-  image : "images/75cl.png"
+  image : "images/beers/ontap.svg"
   button:
    enable : true
-   label : "Browse All Products"
-   link : "products"
+   label : "Voir nos dernières productions"
+   link : "beers"
 
 ############################# Feature ############################
 features:
   enable : true
   title : "L'expérimentation au coeur de la brasserie"
-  image : "images/75cl.png"
+  image : "images/beers/pint.svg"
 
   # feature at the left of the image
   left_side:
-    # feature item loop
-  - title : "Smooth Touch"
-    icon : "tf-ion-ios-alarm-outline"
+  - title : "Le Goût avant tout !"
+    icon : "tf-ion-ios-color-wand-outline"
     content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
 
-    # feature item loop
-  - title : "Elegant Design"
-    icon : "tf-ion-ios-bell-outline"
+  - title : "La Franche Camaraderie"
+    icon : "tf-ion-ios-people-outline"
     content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
 
-    # feature item loop
-  - title : "Easy Pricing"
-    icon : "tf-ion-ios-cart-outline"
+  - title : "Du fait main avec amour"
+    icon : "tf-ion-ios-heart-outline"
     content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
-
 
   # feature at the right of the image
   right_side:
-    # feature item loop
-  - title : "Smooth Touch"
-    icon : "tf-ion-ios-alarm-outline"
+  - title : "L'Expérimentation"
+    icon : "tf-ion-ios-flask-outline"
     content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
 
-    # feature item loop
-  - title : "Elegant Design"
-    icon : "tf-ion-ios-bell-outline"
+  - title : "Projet Collaboratif"
+    icon : "tf-ion-ios-paperplane-outline"
     content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
 
-    # feature item loop
-  - title : "Easy Pricing"
-    icon : "tf-ion-ios-cart-outline"
+  - title : "En quête du meilleur pour vous"
+    icon : "tf-ion-ios-paperplane-outline"
     content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
-
 
 ############################# promo ############################
 promo:
   enable : true
-  image : "images/75cl.png"
+  image : "images/beers/glass-and-can.svg"
   title : "Des bières locales qui ont du goût !"
   content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vel labore, deleniti minima
             nisi, velit atque quaerat impedit ea maxime sunt accusamus at obcaecati dolor iure iusto omnis quis eum.
@@ -68,7 +60,7 @@ about_product:
   title : "Des bières Amienoises pas comme les autres..."
   items:
     # about product item loop
-    - image : "images/showcase/impala.png"
+    - image : "images/beers/pint.svg"
       title : "L'Impala - Chouchou de l'année 2020"
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur
             sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit
@@ -79,7 +71,7 @@ about_product:
         link : "#"
 
     # about product item loop
-    # - image : "images/showcase/impala.png"
+    # - image : "images/beers/pint.svg"
     #   title : "Lorem ipsum dolor sit amet."
     #   content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur
     #         sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit
@@ -99,7 +91,7 @@ products:
 ################################## Subscription ###################
 subscription:
   enable : true
-  bg_image : "images/75cl.png"
+  bg_image : "images/beers/wheat.svg"
   title : "Recevoir nous nouvelles créations"
   content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
   placeholder : "Your Email Address Here"
