@@ -9,4 +9,3 @@ run:
 build:
 	export BASE_URL=https://lowess.github.io/110lab
 	npm run build
-

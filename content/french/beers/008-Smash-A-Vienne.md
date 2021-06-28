@@ -3,6 +3,9 @@ title: "#008 - Smash Vienna"
 style: ["Vienna"]
 date: 2020-06-26T10:31:00+01:00
 abv: 5.6
+colors:
+  light: '#d56e00'
+  dark: '#cc5500'
 
 # Mash efficiency widget - Receipe details
 receipe:

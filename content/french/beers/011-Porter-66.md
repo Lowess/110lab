@@ -3,6 +3,9 @@ title: "#011 - Porter 66"
 style: ["porter", "fruits"]
 date: 2021-01-02T10:30:00+01:00
 abv: 5.6
+colors:
+  light: '#6f523b'
+  dark: '#5c4d3c'
 
 # Mash efficiency widget - Receipe details
 receipe:
@@ -31,6 +34,6 @@ price: "5.00"
 draft: false
 ---
 
-> Nous y voila ! Une grosse charge de houblon dans une blonde assez légère. La Impala est née !
+> Porter 66 à la myrthille
 
-La légende dit que du temps des colonies, la bière était brassée en Angleterre avec les matières premières locales pour être ensuite expédiée et consomée en Inde. Afin d'en assurer la conservation lors du long transport en bateau, les brasseurs anglais augmentaient considérablement la quantité de houblon et le pourcentage d'alcool. Aujourd'hui les IPA font partie des bières les plus tendance, mais attention. elles ne se laissent pas dompter aussi facilemnt part les papilles !
+Une exploration du palier de température à 66°C en Angleterre, avec une bière inspirée d'un `porter` (prononcez "porteur"). Inventé au début du XVIIIe siècle, ce style s'imposa comme breuvage de prédilection chez les porteurs (de marchandises). qui en buvaient dans les pubs des docks londoniens. La recette est caractérisée par l'utilisation d'un malt très torréfié comme le chocolat, qui permet de développer une robe très brune typique des porters, de houblons nobles 'East Kent Goldings' et 'Fuggle', et d'une leveure typiquement anglaise. L'ajout de la myrtille en fin d'ébullition permet d'apporter une note de fraicheur.

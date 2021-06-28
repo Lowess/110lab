@@ -3,6 +3,9 @@ title: "#009 - Frida la brune"
 style: ["Brune", "Amber"]
 date: 2020-09-20T10:30:00+01:00
 abv: 5.6
+colors:
+  light: '#38290a'
+  dark: '#563e0f'
 
 # Mash efficiency widget - Receipe details
 receipe:

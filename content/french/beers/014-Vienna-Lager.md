@@ -3,6 +3,10 @@ title: "#014 - Vienna Lager"
 style: ["lager", "vienna"]
 date: 2021-02-21T12:32:00+01:00
 abv: 5.6
+logo: pint.svg
+colors:
+  light: '#ff7b00'
+  dark: '#e76c02'
 
 # Mash efficiency widget - Receipe details
 receipe:

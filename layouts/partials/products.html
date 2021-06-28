@@ -10,14 +10,15 @@
         </div>
 
         <div class="product-slider">
-          {{ range (where .Site.RegularPages "Section" "beers") }}
+          {{ $products := (where .Site.RegularPages "Section" "beers") }}
+          {{ range sort $products ".Title" "desc" }}
           <div class="block">
             <div class="gallery-overlay">
               <a href="{{ .Permalink }}" class="gallery-popup">
                 <i class="tf-ion-android-open"></i>
               </a>
             </div>
-            <img class="img-fluid" src="{{range first 1 .Params.images}}{{.|absURL}}{{end}}" alt="{{.Title}}">
+            {{ partial (printf "beers/%s" (default "pint.svg" .Params.logo)) (dict "colors" (default (dict "light" "#FA9C1C" "dark" "#FBB049") .Params.colors)) }}
             <h3 class="p-3 text-center">{{ .Title }}</h3>
           </div>
           {{ end }}

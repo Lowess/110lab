@@ -1,23 +1,23 @@
 ---
-title: "#015 - Birgit La Blanche"
-style: ["lager", "whit"]
-date: 2021-03-07T12:32:00+01:00
-abv: 5.5
-logo: flute.svg
+title: "#020 - Orange Mecamunich"
+style: ["pale", "neipa"]
+date: 2021-03-07T12:35:00+01:00
+abv: 7.0
+logo: pint.svg
 colors:
-  light: '#ffffb7'
-  dark: '#fff8a5'
-
+  light: '#fe9031'
+  dark: '#ff8800'
 # Mash efficiency widget - Receipe details
 receipe:
   # Malts used in grams
   malts:
-    pilsner: 2000
-    wheat-malt: 2000
-    wheat: 800
-    sugar: 200
-  density: 1.052
-  volume: 20
+    pilsner: 3000
+    pale: 1000
+    wheat-malt: 1000
+    oats: 450
+    weat: 450
+  density: 1.061
+  volume: 17
 
 images:
   - "images/beers/pint.svg"

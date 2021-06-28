@@ -3,7 +3,10 @@ title: "#017 - NEIPA"
 style: ["pale", "neipa"]
 date: 2021-03-07T12:35:00+01:00
 abv: 7.0
-
+logo: season.svg
+colors:
+  light: '#fcf45d'
+  dark: '#fcec5d'
 # Mash efficiency widget - Receipe details
 receipe:
   # Malts used in grams

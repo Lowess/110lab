@@ -3,6 +3,7 @@ title: "#001 - Impala"
 style: ["IPA"]
 date: 2019-07-01T10:30:00+06:00
 abv: 5.6
+logo: season.svg
 images:
   - "images/beers/pint.svg"
 

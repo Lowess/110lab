@@ -16,7 +16,7 @@
               <i class="tf-ion-android-open"></i>
             </a>
           </div>
-          {{ partial (printf "beers/%s" (default .Params.logo "pint.svg")) }}
+          {{ partial (printf "beers/%s" (default "pint.svg" .Params.logo)) (dict "colors" (default (dict "light" "#FA9C1C" "dark" "#FBB049") .Params.colors)) }}
         </div>
         <div class="product-info">
         <h4 class="mb-2">

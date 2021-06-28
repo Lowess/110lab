@@ -4,10 +4,12 @@ description : "this is a meta description"
 
 office:
   title : "110 Lab"
-  mobile : "0124857985320"
-  email : "110lab@email.com"
-  location : "Amiens, France"
-  content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna"
+  mobile : "06.30.94.47.00"
+  email : "florian.dambrine <at> gmail.com"
+  location : |
+    110 Avenue Jean Jaurès
+    80480 Salouël
+  content : "Brassins dans les cuisines du 110"
 
 # opennig hour
 opennig_hour:

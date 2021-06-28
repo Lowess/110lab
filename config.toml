@@ -1,5 +1,5 @@
 ################################### Default Configuration ############################
-baseurl = "http://examplesite.com/"
+baseurl = "https://www.110lab.fr/"
 title = "110 Lab"
 
 # post excert
@@ -12,10 +12,8 @@ disableLanguages = ["en"] # disable language from here
 defaultContentLanguage = "fr"
 
 removePathAccents = true
+theme = "../.."
 
-[taxonomies]
-  category = "categories"
-  tag = "tags"
 
 # unsafe html
 [markup.goldmark.renderer]
@@ -64,7 +62,7 @@ weight = 2
 
 [[menu.main]]
 name = "Boutique"
-URL = "t-shirt"
+URL = "shop"
 weight = 3
 
 [[menu.main]]
@@ -89,24 +87,39 @@ weight = 5
 
 # footer menu
 [[menu.footer]]
+name = "110 Lab"
+URL = "/"
+weight = 1
+
+[[menu.footer]]
+name = "Nos Bières"
+URL = "beers"
+weight = 2
+
+[[menu.footer]]
+name = "Boutique"
+URL = "shop"
+weight = 3
+
+[[menu.footer]]
 name = "Blog"
 URL = "blog"
-weight = 1
+weight = 3
+
+[[menu.footer]]
+name = "Team"
+URL = "brewers"
+weight = 4
 
 [[menu.footer]]
 name = "Contact"
 URL = "contact"
-weight = 2
+weight = 5
 
 [[menu.footer]]
-name = "Terms & Conditions"
-URL = "terms-conditions"
-weight = 3
-
-[[menu.footer]]
-name = "Privacy Policy"
-URL = "privacy-policy"
-weight = 4
+name = "Outils"
+URL = "tools"
+weight = 5
 
 
 ########################### Default parameters ##########################
@@ -115,8 +128,8 @@ weight = 4
 logo = "images/110lab-logo.png"
 logo_width = "100px"
 # Meta data
-description = "This is meta description"
-author = "Themefisher"
+description = "Pico-brasserie Amienoise Expérimentale"
+author = "Florian Dambrine - 110Lab"
 # currency
 currency = "€"
 # contact form action

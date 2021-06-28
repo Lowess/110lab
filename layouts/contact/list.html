@@ -8,10 +8,10 @@
         <h2 class="font-weight-bold mb-4">{{ .title | markdownify }}</h2>
         <p>{{ .content | markdownify }}</p>
         <ul class="list-unstyled contact-list">
-          <li class="mb-3"><a href="tel:{{ .mobile }}"><i class="tf-ion-ios-telephone mr-2"></i>
+          <li class="mb-4"><a href="tel:{{ .mobile }}"><i class="tf-ion-ios-telephone mr-2"></i>
               {{ .mobile }}</a></li>
-          <li class="mb-3"><a href="mailto:{{ .email }}"><i class="tf-ion-email mr-2"></i>{{ .email }}</a></li>
-          <li class="mb-3"><i class="tf-ion-ios-location mr-2"></i>{{ .location }}
+          <li class="mb-4"><a href="mailto:{{ .email }}"><i class="tf-ion-email mr-2"></i>{{ .email }}</a></li>
+          <li class="mb-4"><i class="tf-ion-ios-location mr-2"></i>{{ .location }}
           </li>
         </ul>
       </div>

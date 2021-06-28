@@ -1,6 +1,6 @@
 ---
-title: "Nos productions"
-description : "this is a meta description"
+title: "- Les expérimentales -"
+description : "Les brassins du 110Lab"
 draft: false
 ---
 

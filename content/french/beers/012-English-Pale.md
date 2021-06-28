@@ -3,6 +3,9 @@ title: "#012 - English Pale"
 style: ["english", "pale"]
 date: 2021-01-02T10:31:00+01:00
 abv: 6.8
+colors:
+  light: '#fcb75d'
+  dark: '#fcac5d'
 
 # Mash efficiency widget - Receipe details
 receipe:

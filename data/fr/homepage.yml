@@ -1,12 +1,14 @@
 ############################# banner ############################
 banner:
   enable : true
-  title : "Brasserie Expérimentale"
-  content : "Amateurs de bières depuis bien trop longtemps"
+  title : "Pico-Brasserie Expérimentale"
+  content : |
+    Amateurs de bières depuis bien trop longtemps le 110Lab se devait d'entrer dans la danse
+    pour vous faire découvrir des bières de caractère, bien faites !
   image : "images/beers/ontap.svg"
   button:
    enable : true
-   label : "Voir nos dernières productions"
+   label : "Voir nos dernières créations"
    link : "beers"
 
 ############################# Feature ############################
@@ -19,21 +21,21 @@ features:
   left_side:
   - title : "Le Goût avant tout !"
     icon : "tf-ion-ios-color-wand-outline"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+    content : "Des goûts francs et tranchés tout restant dans une bière qui semble être familière..."
 
   - title : "La Franche Camaraderie"
     icon : "tf-ion-ios-people-outline"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+    content : "La bonne humeur toujours au rendez-vous lors de nos journées brassages !"
 
   - title : "Du fait main avec amour"
     icon : "tf-ion-ios-heart-outline"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+    content : "Notre passion pour les bons produits nous permet de mettre du coeur à l'ouvrage et de vous proposer des compositions réalisés 100% à la main"
 
   # feature at the right of the image
   right_side:
   - title : "L'Expérimentation"
     icon : "tf-ion-ios-flask-outline"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+    content : "Le maître mot du 110Lab... Sortir de sa zone de confort et innover en permanence"
 
   - title : "Projet Collaboratif"
     icon : "tf-ion-ios-paperplane-outline"

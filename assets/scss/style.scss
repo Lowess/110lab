@@ -6,7 +6,8 @@
 @import 'mash-efficiency';
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 
 /*--
     Common Css
@@ -16,7 +17,7 @@ body {
   font-weight: 300;
   line-height: 25px;
   color: $dark;
-  font-family: $primary-font;
+  font-family: $secondary-font;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -42,6 +43,7 @@ h5,
 h6 {
   font-weight: 300;
   margin: 0px;
+  font-family: $primary-font;
 }
 
 h1,
@@ -131,12 +133,25 @@ a:active {
   padding: 100px 0;
 }
 
+.font-size-20 {
+  font-size: 20px !important;
+}
+
 .font-size-60 {
   font-size: 60px;
   line-height: 1.2;
 
   @include mobile {
     font-size: 40px;
+  }
+}
+
+.font-size-80 {
+  font-size: 80px;
+  line-height: 1.2;
+
+  @include mobile {
+    font-size: 60px;
   }
 }
 
@@ -201,6 +216,7 @@ a:active {
   padding: 15px 40px;
   display: inline-block;
   background-color: $primary-color;
+  font-family: $primary-font;
   box-shadow: 0 15px 40px rgba(249, 167, 68, 0.5);
   background-image: linear-gradient(bottom, rgba(255, 239, 206, 0) 0%, rgba(255, 239, 206, 0.25) 100%);
 
@@ -222,14 +238,15 @@ a:active {
 .navbar {
   &-brand {
     color: $dark;
-    font-size: 25px;
+    font-size: 28px;
     margin: 0;
     line-height: 1;
   }
 }
 
 .nav-link {
-  font-size: 22px;
+  font-size: 28px;
+  font-family: $primary-font;
   font-weight: bold;
   padding: 10px 20px !important;
 }
@@ -420,6 +437,7 @@ a:active {
 
 .footer-menu {
   a {
+    font-family: $primary-font;
     font-size: 22px;
     font-weight: 700;
     color: #444;

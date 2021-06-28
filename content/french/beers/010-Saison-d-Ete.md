@@ -3,6 +3,10 @@ title: "#010 - Saison d'été"
 style: ["saison"]
 date: 2020-09-20T10:31:00+01:00
 abv: 7.4
+logo: season.svg
+colors:
+  light: '#ffd000'
+  dark: '#ffc300'
 
 # Mash efficiency widget - Receipe details
 receipe:

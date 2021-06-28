@@ -3,6 +3,9 @@ title: "#004 - Deluxe"
 style: ["Ambrée"]
 date: 2020-02-17T10:31:00+06:00
 abv: 5.6
+colors:
+  light: '#fbe45c'
+  dark: '#ffe23b'
 
 # Mash efficiency widget - Receipe details
 # receipe:

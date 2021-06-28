@@ -3,6 +3,9 @@ title: "#007 - Imperial IPA"
 style: ["Imperial", "IPA"]
 date: 2020-06-26T10:30:00+01:00
 abv: 9.0
+colors:
+  light: '#fdc43f'
+  dark: '#ffda3d'
 
 # Mash efficiency widget - Receipe details
 receipe:
