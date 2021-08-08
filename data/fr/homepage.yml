@@ -21,7 +21,7 @@ features:
   left_side:
   - title : "Le Goût avant tout !"
     icon : "tf-ion-ios-color-wand-outline"
-    content : "Des goûts francs et tranchés tout en restant dans une bière qui semble être familière..."
+    content : "Des goûts francs et tranchés pour le plaisir de vos papilles !"
 
   - title : "La Franche Camaraderie"
     icon : "tf-ion-ios-people-outline"
@@ -29,7 +29,7 @@ features:
 
   - title : "Du fait main avec amour"
     icon : "tf-ion-ios-heart-outline"
-    content : "Notre passion pour les bons produits nous permet de mettre du coeur à l'ouvrage et de vous proposer des compositions réalisés 100% à la main"
+    content : "Notre passion pour les bons produits nous permet de mettre du coeur à l'ouvrage et de vous proposer des compositions réalisées 100% à la main"
 
   # feature at the right of the image
   right_side:
@@ -39,11 +39,11 @@ features:
 
   - title : "Projet Collaboratif"
     icon : "tf-ion-ios-paperplane-outline"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+    content : "Une équipe de brasseurs aux horizons variés aliant les compétenses de chacun"
 
   - title : "En quête du meilleur pour vous"
     icon : "tf-ion-ios-paperplane-outline"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+    content : "Circuit court directement du brasseur au consommateur"
 
 ############################# promo ############################
 promo:
@@ -63,7 +63,7 @@ about_product:
       title : "La Saison du 110 - Chouchou de l'année 2021"
       content : >
         Rien de tel qu'une bonne bière de saison pour étancher sa soif ! Une bière équilibrée au notes
-        de houblons bien présente
+        de houblons bien présentes
 
       button:
         enable : false
