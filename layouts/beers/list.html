@@ -23,9 +23,9 @@
           {{ .Title }} -
           <small>({{ .Date.Format "2 Jan 2006" }})</small>
         </h4>
-        <p class="price">{{if .Params.discount_price}}{{site.Params.currency}}{{.Params.discount_price}}{{else}}{{site.Params.currency}}{{.Params.price}}{{end}}
+        <!-- <p class="price">{{if .Params.discount_price}}{{site.Params.currency}}{{.Params.discount_price}}{{else}}{{site.Params.currency}}{{.Params.price}}{{end}}
           {{if .Params.discount_price}}<s class="price">{{site.Params.currency}}{{ .Params.price }}</s>{{end}}
-          </p>
+          </p> -->
         </div>
       </div>
       {{ end }}

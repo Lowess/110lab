@@ -21,7 +21,7 @@ features:
   left_side:
   - title : "Le Goût avant tout !"
     icon : "tf-ion-ios-color-wand-outline"
-    content : "Des goûts francs et tranchés tout restant dans une bière qui semble être familière..."
+    content : "Des goûts francs et tranchés tout en restant dans une bière qui semble être familière..."
 
   - title : "La Franche Camaraderie"
     icon : "tf-ion-ios-people-outline"
@@ -48,12 +48,9 @@ features:
 ############################# promo ############################
 promo:
   enable : true
-  image : "images/beers/glass-and-can.svg"
+  image : "embouteillage.jpeg"
   title : "Des bières locales qui ont du goût !"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vel labore, deleniti minima
-            nisi, velit atque quaerat impedit ea maxime sunt accusamus at obcaecati dolor iure iusto omnis quis eum.
-            <br><br>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis commodi odit, illo, qui aliquam dol"
+  content : "Comme une odeur de houblon dans l'air ? Le 110 Lab s'affirme avec des bières de caractère !"
 
 
 ############################# About Product #######################
@@ -62,11 +59,12 @@ about_product:
   title : "Des bières Amienoises pas comme les autres..."
   items:
     # about product item loop
-    - image : "images/beers/pint.svg"
-      title : "L'Impala - Chouchou de l'année 2020"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur
-            sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit
-            quas, quo harum deserunt consequatur cumque!"
+    - image : "images/beers/season.svg"
+      title : "La Saison du 110 - Chouchou de l'année 2021"
+      content : >
+        Rien de tel qu'une bonne bière de saison pour étancher sa soif ! Une bière équilibrée au notes
+        de houblons bien présente
+
       button:
         enable : false
         label : "Check Features"
@@ -105,18 +103,16 @@ testimonial:
   title : "Ils y ont goûter..."
   testimonial_item:
     # testimonial item loop
-    - name : "Florian Dambrine"
-      designation : "110 Lab"
+    - name : "Brasseur Lillois"
+      designation : "Saison du 110 Lab"
       image : "images/person-male.png"
-      content : "Très bonne IPA au goût fleuri ! L'Impala est ma préférée de cette année 2020"
+      content : "Bière de caractère bien équilibrée et à l'odeur de houblon bien marquée. On y retourne, on a envie de se resservir un verre !"
 
-    # testimonial item loop
     - name : "Pauline Leconte"
       designation : "110 Lab"
       image : "images/person-female.png"
       content : "Des bières qui valent le détour !"
 
-    # testimonial item loop
     - name : "Antoine Maincent"
       designation : "110 Lab"
       image : "images/person-male.png"
