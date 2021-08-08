@@ -19,17 +19,38 @@
   </url>
   
   <url>
+    <loc>https://www.110lab.fr/</loc>
+    <lastmod>2021-06-10T08:35:00+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.110lab.fr/beers/021-imperial-ipa/</loc>
+    <lastmod>2021-06-10T08:35:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.110lab.fr/beers/</loc>
+    <lastmod>2021-06-10T08:35:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.110lab.fr/beers/017-neipa/</loc>
     <lastmod>2021-03-07T12:35:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.110lab.fr/</loc>
+    <loc>https://www.110lab.fr/beers/018-ferox-ipa/</loc>
     <lastmod>2021-03-07T12:35:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.110lab.fr/beers/</loc>
+    <loc>https://www.110lab.fr/beers/019-bohemian-lager/</loc>
+    <lastmod>2021-03-07T12:35:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.110lab.fr/beers/020-orange-mecamunich/</loc>
     <lastmod>2021-03-07T12:35:00+01:00</lastmod>
   </url>
   
@@ -124,7 +145,7 @@
   </url>
   
   <url>
-    <loc>https://www.110lab.fr/t-shirt/</loc>
+    <loc>https://www.110lab.fr/shop/</loc>
     <priority>0</priority>
   </url>
   
@@ -138,15 +159,15 @@
   </url>
   
   <url>
-    <loc>https://www.110lab.fr/brewers/</loc>
-  </url>
-  
-  <url>
     <loc>https://www.110lab.fr/categories/</loc>
   </url>
   
   <url>
     <loc>https://www.110lab.fr/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.110lab.fr/brewers/</loc>
   </url>
   
   <url>

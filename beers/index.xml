@@ -1,19 +1,55 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Nos productions on 110 Lab</title>
+    <title>- Les expérimentales - on 110 Lab</title>
     <link>https://www.110lab.fr/beers/</link>
-    <description>Recent content in Nos productions on 110 Lab</description>
+    <description>Recent content in - Les expérimentales - on 110 Lab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
     <copyright>Designed &amp; Developed By [Florian Dambrine](http://floriandambrine.com/)</copyright>
-    <lastBuildDate>Sun, 07 Mar 2021 12:35:00 +0100</lastBuildDate><atom:link href="https://www.110lab.fr/beers/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 10 Jun 2021 08:35:00 +0100</lastBuildDate><atom:link href="https://www.110lab.fr/beers/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>#021 - Imperial IPA</title>
+      <link>https://www.110lab.fr/beers/021-imperial-ipa/</link>
+      <pubDate>Thu, 10 Jun 2021 08:35:00 +0100</pubDate>
+      
+      <guid>https://www.110lab.fr/beers/021-imperial-ipa/</guid>
+      <description>Dans l&amp;rsquo;esprit de la Smash à Vienne mais travaillée avec d&amp;rsquo;autre malt pour révéler les parfums du malt Vienna dans une belle lager bien corsée !</description>
+    </item>
+    
     <item>
       <title>#017 - NEIPA</title>
       <link>https://www.110lab.fr/beers/017-neipa/</link>
       <pubDate>Sun, 07 Mar 2021 12:35:00 +0100</pubDate>
       
       <guid>https://www.110lab.fr/beers/017-neipa/</guid>
+      <description>Dans l&amp;rsquo;esprit de la Smash à Vienne mais travaillée avec d&amp;rsquo;autre malt pour révéler les parfums du malt Vienna dans une belle lager bien corsée !</description>
+    </item>
+    
+    <item>
+      <title>#018 - Ferox IPA</title>
+      <link>https://www.110lab.fr/beers/018-ferox-ipa/</link>
+      <pubDate>Sun, 07 Mar 2021 12:35:00 +0100</pubDate>
+      
+      <guid>https://www.110lab.fr/beers/018-ferox-ipa/</guid>
+      <description>Dans l&amp;rsquo;esprit de la Smash à Vienne mais travaillée avec d&amp;rsquo;autre malt pour révéler les parfums du malt Vienna dans une belle lager bien corsée !</description>
+    </item>
+    
+    <item>
+      <title>#019 - Bohemian Lager</title>
+      <link>https://www.110lab.fr/beers/019-bohemian-lager/</link>
+      <pubDate>Sun, 07 Mar 2021 12:35:00 +0100</pubDate>
+      
+      <guid>https://www.110lab.fr/beers/019-bohemian-lager/</guid>
+      <description>Dans l&amp;rsquo;esprit de la Smash à Vienne mais travaillée avec d&amp;rsquo;autre malt pour révéler les parfums du malt Vienna dans une belle lager bien corsée !</description>
+    </item>
+    
+    <item>
+      <title>#020 - Orange Mecamunich</title>
+      <link>https://www.110lab.fr/beers/020-orange-mecamunich/</link>
+      <pubDate>Sun, 07 Mar 2021 12:35:00 +0100</pubDate>
+      
+      <guid>https://www.110lab.fr/beers/020-orange-mecamunich/</guid>
       <description>Dans l&amp;rsquo;esprit de la Smash à Vienne mais travaillée avec d&amp;rsquo;autre malt pour révéler les parfums du malt Vienna dans une belle lager bien corsée !</description>
     </item>
     
@@ -68,7 +104,8 @@
       <pubDate>Sat, 02 Jan 2021 10:30:00 +0100</pubDate>
       
       <guid>https://www.110lab.fr/beers/011-porter-66/</guid>
-      <description>Nous y voila ! Une grosse charge de houblon dans une blonde assez légère. La Impala est née !</description>
+      <description>Porter 66 à la myrthille
+ Une exploration du palier de température à 66°C en Angleterre, avec une bière inspirée d&amp;rsquo;un porter (prononcez &amp;ldquo;porteur&amp;rdquo;).</description>
     </item>
     
     <item>
