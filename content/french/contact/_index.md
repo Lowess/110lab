@@ -7,7 +7,6 @@ office:
   mobile : "06.30.94.47.00"
   email : "110lab.brasserie@gmail.com"
   location : |
-    110 Avenue Jean Jaurès
     80480 Salouël
   content : "Brassins dans les cuisines du 110"
 
