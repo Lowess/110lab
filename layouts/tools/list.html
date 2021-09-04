@@ -1,8 +1,8 @@
 {{ define "main" }}
   {{- "<!-- Preact component injection -->" | safeHTML }}
-  {{ partial "preact.html" (dict "widget" (dict "js" "js/mash-efficiency.js") "data" (dict "density" 1.059 "volume" 20 "malts" (dict "pilsner" 5000))) }}
+  {{ partial "preact.html" (dict "widget" (dict "js" "js/widgets/mash-efficiency.js") "data" (dict "density" 1.059 "volume" 20 "malts" (dict "pilsner" 5000))) }}
 
   <hr />
 
-  {{ partial "preact.html" (dict "widget" (dict "js" "js/density.js") "data" (dict)) }}
+  {{ partial "preact.html" (dict "widget" (dict "js" "js/widgets/density.js") "data" (dict)) }}
 {{ end }}

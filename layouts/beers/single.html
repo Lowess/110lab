@@ -7,7 +7,7 @@
       <div class="col-md-12 mb-4">
         {{ with .Params.receipe }}
           {{- "<!-- Preact component injection -->" | safeHTML }}
-          {{ partial "preact.html" (dict "widget" (dict "js" "js/mash-efficiency.js") "data" (dict "density" .density "volume" .volume "malts" .malts)) }}
+          {{ partial "preact.html" (dict "widget" (dict "js" "js/widgets/mash-efficiency.js") "data" (dict "density" .density "volume" .volume "malts" .malts)) }}
         {{ end }}
       </div>
 

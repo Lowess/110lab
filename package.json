@@ -2,12 +2,12 @@
   "name": "110lab",
   "version": "1.0.0",
   "description": "110Lab - Experimental Brewery",
-  "repository": "Lowess/preact-hugo",
+  "repository": "Lowess/110lab",
   "main": "index.js",
   "scripts": {
     "lint": "eslint src",
     "start": "run-p start:**",
-    "start:hugo": "hugo serve -d public -vw",
+    "start:hugo": "hugo serve --disableFastRender -d public -vw",
     "preview": "run-p preview:**",
     "preview:hugo": "npm run start:hugo -- -D -F",
     "prebuild": "rm -rf public",
@@ -24,8 +24,9 @@
     "@babel/plugin-proposal-class-properties": "^7.12.1",
     "@babel/plugin-proposal-object-rest-spread": "^7.12.1",
     "@babel/plugin-syntax-object-rest-spread": "^7.8.3",
-    "@babel/plugin-transform-react-jsx": "^7.12.11",
+    "@babel/plugin-transform-react-jsx": "^7.14.9",
     "@babel/preset-env": "^7.12.11",
+    "@babel/preset-typescript": "^7.15.0",
     "babel-loader": "^8.2.2",
     "hugo-bin-extended": "^0.80.0",
     "npm-run-all": "^4.1.5"
@@ -33,9 +34,11 @@
   "dependencies": {
     "bootstrap": "^4.5.3",
     "bootstrap-icons": "^1.2.1",
+    "netlify-identity-widget": "^1.9.2",
     "preact": "^10.5.7",
     "preact-habitat": "^3.3.0",
-    "preact-render-to-string": "^5.1.12"
+    "preact-render-to-string": "^5.1.12",
+    "preact-router": "^3.2.1"
   },
   "resolutions": {
     "natives": "1.1.6"

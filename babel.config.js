@@ -1,6 +1,7 @@
-{
+module.exports = {
   "presets": [
-    "@babel/preset-env"
+    "@babel/preset-env",
+    ["@babel/preset-typescript", { "jsxPragma": "h" }],
   ],
   "plugins": [
     "@babel/plugin-syntax-object-rest-spread",
@@ -13,5 +14,4 @@
       }
     ]
   ]
-}
-
+};

@@ -5,7 +5,7 @@ description : "this is a meta description"
 office:
   title : "110 Lab"
   mobile : "06.30.94.47.00"
-  email : "florian.dambrine <at> gmail.com"
+  email : "110lab.brasserie@gmail.com"
   location : |
     110 Avenue Jean Jaurès
     80480 Salouël

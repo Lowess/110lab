@@ -132,8 +132,10 @@ description = "Pico-brasserie Amienoise Expérimentale"
 author = "Florian Dambrine - 110Lab"
 # currency
 currency = "€"
+
 # contact form action
-contact_form_action = "#" # contact form works with https://formspree.io
+contact_form_action = "https://formspree.io/f/xayaaddk"
+
 # snipcart public api key
 # snipcart_api = "ZDgxY2ZiM2EtMWRmMi00M2ZkLWI1MDAtNzA2MDc0Y2Q1MzJlNjM3MTAzNDIwOTQ1NDA4NjM4"
 
@@ -143,14 +145,17 @@ image = "images/110lab-logo.png"
 
 # Preloader
 [params.preloader]
-enable = true
+enable = false
 preloader = "" # use .png , .svg or .gif format
+
+[params.google]
+form="https://docs.google.com/forms/d/e/1FAIpQLSdp2bx3d0kIeYOLMpT_7eAoKQI9v9pbCjoTlKX-TbrnQq6xEw/viewform"
 
 # Subscription
 [params.subscription]
 # mailchimp subsciption
-mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
-mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074" # replace this code with yours
+mailchimp_form_action = "https://110lab.us5.list-manage.com/subscribe/post?u=71a0f042e4262ee2d0b84758d&amp;id=a62770cc16"
+mailchimp_form_name = "b_71a0f042e4262ee2d0b84758d_a62770cc16"
 
 [params.vimeo]
 id = "402873496"

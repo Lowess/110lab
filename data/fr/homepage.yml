@@ -93,8 +93,8 @@ subscription:
   enable : true
   bg_image : "images/beers/wheat.svg"
   title : "Recevoir nous nouvelles créations"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
-  placeholder : "Your Email Address Here"
+  content : ""
+  placeholder : "Adresse Email"
 
 
 ############################## Testimonial ##########################
