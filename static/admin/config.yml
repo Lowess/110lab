@@ -1,7 +1,11 @@
 # Dev
+# backend:
+#   name: test-repo
+#   site_domain: cms.netlify.com
+
 backend:
-  name: test-repo
-  site_domain: cms.netlify.com
+  name: git-gateway
+  branch: netlify-cms
 
 # Prod
 # backend:
@@ -9,21 +13,69 @@ backend:
 #   branch: master
 
 locale: fr
-logo_url: https://www.110lab.fr/images/110lab-logo.png
+logo_url: https://www.110lab.fr/images/110lab-logo.svg
 
 publish_mode: editorial_workflow
-media_folder: "static/images" # Media files will be stored in the repo under static/images/uploads
-public_folder: "/images" # The src attribute for uploaded media will begin with /images/uploads
+# Media files will be stored in the repo under static/images/uploads
+media_folder: "static/images/uploads"
+# The src attribute for uploaded media will begin with /images/uploads
+public_folder: "/images/uploads"
 
 collections:
-  - name: "blog" # Used in routes, e.g., /admin/collections/blog
-    label: "Blog" # Used in the UI
-    folder: "content/french/blog" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
+  - name: "beers"
+    label: "Bières"
+    folder: "content/french/beers"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - label: Mise en page
+        name: layout
+        widget: hidden
+        default: beers
+
+      - label: Nom
+        name: title
+        widget: string
+
+      - label: Date du brassin
+        name: date
+        widget: datetime
+
+      - label: Featured Image
+        name: images
+        widget: list
+        field:
+          label: Image
+          name: image
+          widget: image
+
+      - label: Description de la bière
+        name: body
+        widget: markdown
+
+  - name: blog
+    label: Blog
+    folder: content/french/blog
+    create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Featured Image", name: "image", widget: "image"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - label: Mise en page
+        name: layout
+        widget: hidden
+        default: blog
+
+      - label: Titre
+        name: title
+        widget: string
+
+      - label: Date de publication
+        name: date
+        widget: datetime
+
+      - label: Image
+        name: image
+        widget: image
+
+      - label: Corp
+        name: body
+        widget: markdown
