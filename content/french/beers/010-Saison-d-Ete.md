@@ -12,9 +12,12 @@ colors:
 receipe:
   # Malts used in grams
   malts:
-    pilsner: 4200
-    munich: 1400
-    sugar: 380
+    - name: pilsner
+      quantity: 4200
+    - name: munich
+      quantity: 1400
+    - name: sugar
+      quantity: 380
   density: 1.075
   volume: 18
 

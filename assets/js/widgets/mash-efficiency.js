@@ -34,8 +34,8 @@ const MashEfficiency = (props) => {
   const [visible, setVisible] = useState(false);
   const [density, setDentisty] = useState(props.density || 1.060 );
   const [volume, setVolume] = useState(props.volume || 20 );
-  const [quantity, setQuantity] = useState(props.quantity || Object.keys(props.malts).reduce((sum,key)=>sum+parseFloat(props.malts[key]||0),0) || 5 );
-  const [malts, setMalts] = useState(props.malts || {} );
+  const [quantity, setQuantity] = useState(props.quantity || props.malts.reduce((sum,key)=>sum+parseFloat(key["quantity"]||0),0) || 5 );
+  const [malts, setMalts] = useState(props.malts || [] );
 
   const calculateMashEfficiency = (density) => {
     // (259-259/densité mesurée) * densité mesurée * volume de moût / Masse totale de Malt = rendement du brassage
@@ -51,15 +51,13 @@ const MashEfficiency = (props) => {
     let totalMashQuantity = 0;
 
     // Calculate total qty
-    for (const [malt, qty] of Object.entries(malts)) {
-      totalMashQuantity += qty
-      console.log(malt + " -> "+ qty);
-    }
+    malts.forEach(function (item) {
+      totalMashQuantity += item["quantity"]
+    })
 
-    for (const [malt, qty] of Object.entries(malts)) {
-      bestTheoricMash += qty / totalMashQuantity * (theoricEfficiency[malt] || 75)
-      console.log(malt + " -> "+ qty);
-    }
+    malts.forEach(function (item) {
+      bestTheoricMash += item["quantity"] / totalMashQuantity * (theoricEfficiency[item["name"]] || 75)
+    })
 
     console.log(`Total mash quantity: ${totalMashQuantity}g - Best theoric ${bestTheoricMash}`)
     return bestTheoricMash
@@ -84,20 +82,29 @@ const MashEfficiency = (props) => {
       {
         visible ? (
           <div>
+
             <ul class="d-flex flex-row justify-content-around">
-              <ul class="d-flex flex-column justify-content-around">
-                <li class="display-4 p-5"><span class="tf-ion-ios-flask-outline"/> Densité {density}</li>
-                <li class="display-4 p-5"><span class="tf-ion-beaker"/> Volume {volume} L</li>
-              </ul>
-              <ul class="d-flex flex-column justify-content-around">
-                <li class="display-4 p-5"><span class="tf-ion-funnel"/> Quantité de Malt {(quantity / 1000).toFixed(2)} kg</li>
-                <li>{JSON.stringify(malts)}</li>
-              </ul>
+              <li class="display-5 p-2"><span class="tf-ion-ios-flask-outline"/> Densité <span class="badge badge-info">{density}</span></li>
+              <li class="display-5 p-2"><span class="tf-ion-beaker"/> Volume <span class="badge badge-dark">{volume} L</span></li>
+              <li class="display-5 p-2"><span class="tf-ion-funnel"/> Quantité de Malt <span class="badge badge-dark">{(quantity / 1000).toFixed(2)} kg</span></li>
             </ul>
+
+            <ul class="d-flex flex-row justify-content-center">
+              { malts.map((item) => {
+                  return (
+                    <li class="p-2">
+                      <button type="button" class="btn btn-sm btn-warning">
+                      {item["name"]} <span class="badge badge-light">{item["quantity"]}g</span>
+                      </button>
+                    </li>
+                  );
+              })}
+            </ul>
+
             <hr />
             <ul class="d-flex flex-row justify-content-center">
-              <li class="display-3 p-5"><span class="tf-ion-stats-bars" /> Rendement: {calculateMashEfficiency(density).toFixed(2)}%</li>
-              <li class="display-4 p-5">
+              <li class="display-4 p-2"><span class="tf-ion-stats-bars" /> Rendement: {calculateMashEfficiency(density).toFixed(2)}%</li>
+              <li class="display-4 p-2">
                 <small class="text-muted">
                   <span class="tf-ion-information-circled"/>  Theorique: {(calculateTheoricMashEfficiency() - 10 ).toFixed(2)} <span class=" tf-ion-android-arrow-forward"/> {calculateTheoricMashEfficiency().toFixed(2)}
                 </small>

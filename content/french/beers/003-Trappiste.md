@@ -8,11 +8,14 @@ abv: 5.6
 receipe:
   # Malts used in grams
   malts:
-    pilsner: 7000
-    wheat: 2000
-    wheat-malt: 2000
-    wheat: 1200
-    sugar: 600
+    - name: pilsner
+      quantity: 7000
+    - name: wheat-malt
+      quantity: 2000
+    - name: wheat
+      quantity: 1200
+    - name: sugar
+      quantity: 600
   density: 1.093
   volume: 25
 

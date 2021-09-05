@@ -8,13 +8,19 @@ abv: 6.5
 receipe:
   # Malts used in grams
   malts:
-    pilsner: 4900
-    munich: 350
-    cara: 350
-    cara: 50
-    special-b: 70
-    barley: 350
-    sugar: 300
+    - name: pilsner
+      quantity: 4900
+    - name: munich
+      quantity: 350
+    - name: cara
+      quantity: 350
+    - name: special-b
+      quantity: 70
+    - name: barley
+      quantity: 350
+    - name: sugar
+      quantity: 300
+
   density: 1.068
   volume: 18
 

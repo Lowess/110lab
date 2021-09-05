@@ -11,11 +11,16 @@ colors:
 receipe:
   # Malts used in grams
   malts:
-    pilsner: 3000
-    pale: 1000
-    wheat-malt: 1000
-    oats: 450
-    weat: 450
+    - name: pilsner
+      quantity: 3000
+    - name: pale
+      quantity: 1000
+    - name: wheat-malt
+      quantity: 1000
+    - name: oats
+      quantity: 450
+    - name: weat
+      quantity: 450
   density: 1.061
   volume: 17
 

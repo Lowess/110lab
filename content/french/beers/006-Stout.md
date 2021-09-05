@@ -8,11 +8,16 @@ abv: 5.6
 receipe:
   # Malts used in grams
   malts:
-    pale: 5500
-    chocolate: 700
-    cara: 350
-    oats: 1000
-    sugar: 500
+    - name: pale
+      quantity: 5500
+    - name: chocolate
+      quantity: 700
+    - name: cara
+      quantity: 350
+    - name: oats
+      quantity: 1000
+    - name: sugar
+      quantity: 500
   density: 1.070
   volume: 18
 

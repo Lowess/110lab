@@ -11,11 +11,16 @@ colors:
 receipe:
   # Malts used in grams
   malts:
-    pale: 9600
-    pilsner: 4400
-    vienna: 1400
-    oats: 1000
-    sugar: 800
+    - name: pale
+      quantity: 9600
+    - name: pilsner
+      quantity: 4400
+    - name: vienna
+      quantity: 1400
+    - name: oats
+      quantity: 1000
+    - name: sugar
+      quantity: 800
   density: 1.075
   volume: 38
 

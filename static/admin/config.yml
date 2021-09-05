@@ -26,7 +26,7 @@ collections:
     label: "Bières"
     folder: "content/french/beers"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "{{title}}"
     fields:
       - label: Mise en page
         name: layout
@@ -41,9 +41,133 @@ collections:
         name: date
         widget: datetime
 
-      - label: Featured Image
+      - label: Style
+        name: style
+        widget: select
+        multiple: true
+        options:
+          - Ale
+          - Ambrée
+          - Blonde
+          - Goose
+          - Impériale
+          - IPA
+          - Lager
+          - NEIPA
+          - Porter
+          - Saison
+          - Stout
+          - Trappiste
+
+      - label: Recette
+        name: receipe
+        widget: object
+        fields:
+          - label: Malts (Gr)
+            name: malts
+            widget: list
+            allow_add: true
+            fields:
+              - label: Malt
+                name: name
+                widget: select
+                options:
+                  - label: Malt Pilsner
+                    value: pilsner
+
+                  - label: Malt Base
+                    value: base
+
+                  - label: Malt Pale
+                    value: pale
+
+                  - label: Malt biscuit
+                    value: biscuit
+
+                  - label: Malt Vienna
+                    value: vienna
+
+                  - label: Malt Munich
+                    value: munich
+
+                  - label: Malt brun
+                    value: brown
+
+                  - label: Malt cara
+                    value: cara
+
+                  - label: Malt light-crystal
+                    value: light-crystal
+
+                  - label: Malt pale-crystal
+                    value: pale-crystal
+
+                  - label: Malt medium-crystal
+                    value: medium-crystal
+
+                  - label: Malt dark-crystal
+                    value: dark-crystal
+
+                  - label: Malt special-b
+                    value: special-b
+
+                  - label: Malt chocolat
+                    value: chocolate
+
+                  - label: Orge torréfié
+                    value: roasted-barley
+
+                  - label: Malt noir
+                    value: black-malt
+
+                  - label: Malt de blé
+                    value: wheat-malt
+
+                  - label: Malt de seigle
+                    value: rye-malt
+
+                  - label: Avoine (en flocon)
+                    value: oatmeal
+
+                  - label: Maïs (en flocon)
+                    value: corn
+
+                  - label: Orge (en flocon)
+                    value: barley
+
+                  - label: Blé (en flocon)
+                    value: wheat
+
+                  - label: Riz
+                    value: rice
+
+                  - label: Sucre
+                    value: sugar
+
+              - label: Quantié
+                name: quantity
+                widget: number
+
+          - label: Volume (L)
+            name: volume
+            widget: number
+
+          - label: Densité (L)
+            name: density
+            widget: number
+            value_type: float
+            step: 0.001
+
+      - label: Taux d'alcool
+        name: abv
+        widget: number
+        value_type: float
+        step: 0.1
+
+      - label: Images
         name: images
         widget: list
+        collapsed: false
         field:
           label: Image
           name: image

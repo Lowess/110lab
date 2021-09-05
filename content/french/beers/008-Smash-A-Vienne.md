@@ -11,7 +11,8 @@ colors:
 receipe:
   # Malts used in grams
   malts:
-    vienna: 7000
+    - name: vienna
+      quantity: 7000
   density: 1.114
   volume: 18
 
