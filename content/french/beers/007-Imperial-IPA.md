@@ -11,9 +11,12 @@ colors:
 receipe:
   # Malts used in grams
   malts:
-    pale: 7000
-    munich: 700
-    oats: 500
+    - name: pale
+      quantity: 7000
+    - name: munich
+      quantity: 700
+    - name: oats
+      quantity: 500
   density: 1.094
   volume: 18
 

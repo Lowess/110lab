@@ -12,9 +12,12 @@ colors:
 receipe:
   # Malts used in grams
   malts:
-    pale: 5000
-    vienna: 6000
-    special-b: 500
+    - name: pale
+      quantity: 5000
+    - name: vienna
+      quantity: 6000
+    - name: special-b
+      quantity: 500
   density: 1.055
   volume: 50
 

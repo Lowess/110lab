@@ -11,10 +11,12 @@ colors:
 receipe:
   # Malts used in grams
   malts:
-    barley: 400
-    pilsner: 5000
-    cara: 200
-    cara: 800
+    - name: barley
+      quantity: 400
+    - name: pilsner
+      quantity: 5000
+    - name: cara
+      quantity: 800
   density: 1.068
   volume: 18
 

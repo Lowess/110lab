@@ -12,10 +12,14 @@ colors:
 receipe:
   # Malts used in grams
   malts:
-    pilsner: 2000
-    wheat-malt: 2000
-    wheat: 800
-    sugar: 200
+    - name: pilsner
+      quantity: 2000
+    - name: wheat-malt
+      quantity: 2000
+    - name: wheat
+      quantity: 800
+    - name: sugar
+      quantity: 200
   density: 1.052
   volume: 20
 

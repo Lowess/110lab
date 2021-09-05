@@ -8,8 +8,10 @@ abv: 5.6
 receipe:
   # Malts used in grams
   malts:
-    pale: 10000
-    sugar: 800
+    - name: pale
+      quantity:  10000
+    - name: sugar
+      quantity: 800
   density: 1.056
   volume: 44
 

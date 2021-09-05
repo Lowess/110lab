@@ -4,33 +4,6 @@ import habitat from "preact-habitat";
 import { useState, useEffect } from 'preact/hooks';
 
 const Density = (props) => {
-  const [theoricEfficiency, setTheoricEfficiency] = useState({
-    "pilsner": 80,
-    "base":	76,
-    "pale": 81,
-    "biscuit": 75,
-    "vienna": 75,
-    "munich":	75,
-    "brown": 	70,
-    "cara":	70,
-    "light-crystal": 	75, // (20 – 30 ebc)
-    "pale-crystal": 74, // (50 – 80 ebc)
-    "medium-crystal": 	74, //(120 – 150 ebc)
-    "dark-crystal":	72, // (240 ebc)
-    "special-b":	68,
-    "chocolate":	60,
-    "roasted-barley":	55,
-    "black-malt":	55,
-    "wheat-malt":	79,
-    "rye-malt":	63,
-    "oatmeal":	70, // (flaked)
-    "corn":	84,  // (flaked)
-    "barley":	70, // (flaked)
-    "wheat": 	77, // (flaked)
-    "rice":	82, // (flaked)
-    "sugar": 100
-  });
-
   const [density, setDensity] = useState(props.density || 1050 );
   const [realDensity, setRealDentisty] = useState(0.0);
   const [temperature, setTemperature] = useState(props.temperature || 65 );

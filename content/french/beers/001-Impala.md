@@ -11,8 +11,11 @@ images:
 receipe:
   # Malts used in grams
   malts:
-    pale: 5000
-    sugar: 400
+    - name: pale
+      quantity: 5000
+    - name: sugar
+      quantity: 400
+
   density: 1.068
   volume: 18
 

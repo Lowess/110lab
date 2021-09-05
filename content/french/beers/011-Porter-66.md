@@ -11,9 +11,12 @@ colors:
 receipe:
   # Malts used in grams
   malts:
-    pale: 5000
-    chocolate: 300
-    fruits: 2000
+    - name: pale
+      quantity: 5000
+    - name: chocolate
+      quantity: 300
+    - name: fruits
+      quantity: 2000
   density: 1.047
   volume: 18
 
