@@ -1,7 +1,8 @@
-<div class="preact">
+{{- $script := .widget }}
+{{- $data := .data }}
+{{ $id := md5 $script.js  }}
+<div id='$id' class="preact">
   {{- "<!-- Preact component -->" | safeHTML }}
-  {{- $script := .widget }}
-  {{- $data := .data }}
 
   <div class="loader">
     <div>Loading Preact Widget</div>
@@ -27,6 +28,6 @@
     <!-- Transipiling JS code with Babel and Node  -->
     {{- $transpiled := resources.Get . | babel | js.Build (dict "minify" true)  -}}
 
-    <script async src="{{ $transpiled.Permalink }}"></script>
+    <script async src="{{ $transpiled.Permalink }}"  data-mount-in="{{ $id }}"></script>
   {{- end }}
 </div>
