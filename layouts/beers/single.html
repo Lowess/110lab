@@ -1,61 +1,59 @@
 {{ define "main" }}
-
+{{/*
 <section class="section">
   <div class="container">
     <div class="row">
 
       <div class="col-md-12 mb-4">
         {{ with .Params.receipe }}
-          {{- "<!-- Preact component injection -->" | safeHTML }}
-          {{ partial "preact.html" (dict "widget" (dict "js" "js/widgets/mash-efficiency.js") "data" (dict "density" .density "volume" .volume "malts" .malts)) }}
+        {{- "
+        <!-- Preact component injection -->" | safeHTML }}
+        {{ partial "preact.html" (dict "widget" (dict "js" "js/widgets/mash-efficiency.js") "data" (dict "density"
+        .density "volume" .volume "malts" .malts)) }}
         {{ end }}
       </div>
 
       <hr />
 
       <div class="col-md-5 mb-4 mb-md-0">
-        {{ partial (printf "beers/%s" (default "pint.svg" .Params.logo)) (dict "colors" (default (dict "light" "#FA9C1C" "dark" "#FBB049") .Params.colors)) }}
+        {{ partial (printf "beers/%s" (default "pint.svg" .Params.logo)) (dict "colors" (default (dict "light" "#FA9C1C"
+        "dark" "#FBB049") .Params.colors)) }}
 
-        {{/* ENABLE THIS WHEN READY TO DISPLAY REAL PICTS
         <!-- product image slider -->
         <div class="product-image-slider">
           {{ range .Params.images }}
-            <div data-image='{{ . | absURL }}'>
-              <div data-image="{{ . | absURL }}">
-                <img class="img-fluid w-100" src="{{ . | absURL }}" alt="product-image">
-              </div>
+          <div data-image='{{ . | absURL }}'>
+            <div data-image="{{ . | absURL }}">
+              <img class="img-fluid w-100" src="{{ . | absURL }}" alt="product-image">
             </div>
+          </div>
           {{ end }}
         </div>
-        */}}
       </div>
       <div class="col-lg-6 col-md-7 offset-lg-1">
         <h1 class="mb-4">{{ .Title }}</h1>
         {{ with site.Params.snipcart.api }}
-          {{ with .Params.sizes }}<p><strong>Sizes: </strong>{{ delimit . ", " | title}}</p>{{ end }}
-          <p class="price py-4">
-            {{if .Params.discount_price}}{{site.Params.currency}}{{.Params.discount_price}}{{else}}{{site.Params.currency}}{{.Params.price}}{{end}}
-            {{if .Params.discount_price}}<s class="price">{{site.Params.currency}}{{ .Params.price }}</s>{{end}}
-          </p>
-          <button class="snipcart-add-item btn btn-main mb-5"
-            data-item-id="{{.Title | urlize}}__{{if .Params.discount_price}}{{.Params.discount_price}}{{else}}{{.Params.price}}{{end}}"
-            data-item-name="{{.Title}}"
-            data-item-image="{{range first 1 .Params.Images}}{{. | absURL}}{{end}}"
-            data-item-price="{{if .Params.discount_price}}{{.Params.discount_price}}{{else}}{{.Params.price}}{{end}}" data-item-url="{{.Permalink}}"
-            {{ if .Params.colors }}
-            data-item-custom1-name="Choose Color"
-            data-item-custom1-options="{{range $index, $element:= .Params.colors}}{{ if eq $index 0 }}{{. | title}}{{ else }}|{{. | title }}{{end}}{{end}}"
-            {{ end }}
-            {{ if .Params.sizes }}
-            data-item-custom2-name="Choose Size"
-            data-item-custom2-options="{{range $index, $element:= .Params.sizes}}{{if eq $index 0}}{{. | title}}{{else}}|{{. | title}}{{end}}{{end}}"
-            {{end}}>{{i18n "add_to_cart"}}
-          </button>
+        {{ with .Params.sizes }}<p><strong>Sizes: </strong>{{ delimit . ", " | title}}</p>{{ end }}
+        <p class="price py-4">
+          {{if
+          .Params.discount_price}}{{site.Params.currency}}{{.Params.discount_price}}{{else}}{{site.Params.currency}}{{.Params.price}}{{end}}
+          {{if .Params.discount_price}}<s class="price">{{site.Params.currency}}{{ .Params.price }}</s>{{end}}
+        </p>
+        <button class="snipcart-add-item btn btn-main mb-5"
+          data-item-id="{{.Title | urlize}}__{{if .Params.discount_price}}{{.Params.discount_price}}{{else}}{{.Params.price}}{{end}}"
+          data-item-name="{{.Title}}" data-item-image="{{range first 1 .Params.Images}}{{. | absURL}}{{end}}"
+          data-item-price="{{if .Params.discount_price}}{{.Params.discount_price}}{{else}}{{.Params.price}}{{end}}"
+          data-item-url="{{.Permalink}}" {{ if .Params.colors }} data-item-custom1-name="Choose Color"
+          data-item-custom1-options="{{range $index, $element:= .Params.colors}}{{ if eq $index 0 }}{{. | title}}{{ else }}|{{. | title }}{{end}}{{end}}"
+          {{ end }} {{ if .Params.sizes }} data-item-custom2-name="Choose Size"
+          data-item-custom2-options="{{range $index, $element:= .Params.sizes}}{{if eq $index 0}}{{. | title}}{{else}}|{{. | title}}{{end}}{{end}}"
+          {{end}}>{{i18n "add_to_cart"}}
+        </button>
         {{ end }}
         <div class="content">{{.Content}}</div>
       </div>
     </div>
   </div>
 </section>
-
+*/}}
 {{ end }}

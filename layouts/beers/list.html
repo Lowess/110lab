@@ -1,5 +1,5 @@
 {{ define "main" }}
-
+{{/*
 <section class="section gallery">
   <div class="container">
     <div class="row">
@@ -16,14 +16,15 @@
               <i class="tf-ion-android-open"></i>
             </a>
           </div>
-          {{ partial (printf "beers/%s" (default "pint.svg" .Params.logo)) (dict "colors" (default (dict "light" "#FA9C1C" "dark" "#FBB049") .Params.colors)) }}
+          {{ partial (printf "beers/%s" (default "pint.svg" .Params.logo)) (dict "colors" (default (dict "light"
+          "#FA9C1C" "dark" "#FBB049") .Params.colors)) }}
         </div>
         <div class="product-info">
-        <h4 class="mb-2">
-          {{ .Title }} -
-          <small>({{ .Date.Format "2 Jan 2006" }})</small>
-        </h4>
-        <!-- <p class="price">{{if .Params.discount_price}}{{site.Params.currency}}{{.Params.discount_price}}{{else}}{{site.Params.currency}}{{.Params.price}}{{end}}
+          <h4 class="mb-2">
+            {{ .Title }} -
+            <small>({{ .Date.Format "2 Jan 2006" }})</small>
+          </h4>
+          <!-- <p class="price">{{if .Params.discount_price}}{{site.Params.currency}}{{.Params.discount_price}}{{else}}{{site.Params.currency}}{{.Params.price}}{{end}}
           {{if .Params.discount_price}}<s class="price">{{site.Params.currency}}{{ .Params.price }}</s>{{end}}
           </p> -->
         </div>
@@ -32,5 +33,5 @@
     </div>
   </div>
 </section>
-
+*/}}
 {{ end }}

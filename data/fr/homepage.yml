@@ -1,74 +1,73 @@
 ############################# banner ############################
 banner:
-  enable : true
-  title : "Pico-Brasserie Expérimentale"
-  content : |
+  enable: true
+  title: "Pico-Brasserie Expérimentale"
+  content: |
     Amateurs de bières depuis bien trop longtemps le 110Lab se devait d'entrer dans la danse
     pour vous faire découvrir des bières de caractère, bien faites !
-  image : "images/beers/ontap.svg"
+  image: "images/beers/ontap.svg"
   button:
-   enable : true
-   label : "Voir nos dernières créations"
-   link : "beers"
+    enable: true
+    label: "Voir nos dernières créations"
+    link: "beers"
 
 ############################# Feature ############################
 features:
-  enable : true
-  title : "L'expérimentation au coeur de la brasserie"
-  image : "images/beers/pint.svg"
+  enable: true
+  title: "L'expérimentation au coeur de la brasserie"
+  image: "images/beers/pint.svg"
 
   # feature at the left of the image
   left_side:
-  - title : "Le Goût avant tout !"
-    icon : "tf-ion-ios-color-wand-outline"
-    content : "Des goûts francs et tranchés pour le plaisir de vos papilles !"
+    - title: "Le Goût avant tout !"
+      icon: "tf-ion-ios-color-wand-outline"
+      content: "Des goûts francs et tranchés pour le plaisir de vos papilles !"
 
-  - title : "La Franche Camaraderie"
-    icon : "tf-ion-ios-people-outline"
-    content : "La bonne humeur toujours au rendez-vous lors de nos journées brassages !"
+    - title: "La Franche Camaraderie"
+      icon: "tf-ion-ios-people-outline"
+      content: "La bonne humeur toujours au rendez-vous lors de nos journées brassages !"
 
-  - title : "Du fait main avec amour"
-    icon : "tf-ion-ios-heart-outline"
-    content : "Notre passion pour les bons produits nous permet de mettre du coeur à l'ouvrage et de vous proposer des compositions réalisées 100% à la main"
+    - title: "Du fait main avec amour"
+      icon: "tf-ion-ios-heart-outline"
+      content: "Notre passion pour les bons produits nous permet de mettre du coeur à l'ouvrage et de vous proposer des compositions réalisées 100% à la main"
 
   # feature at the right of the image
   right_side:
-  - title : "L'Expérimentation"
-    icon : "tf-ion-ios-flask-outline"
-    content : "Le maître mot du 110Lab... Sortir de sa zone de confort et innover en permanence"
+    - title: "L'Expérimentation"
+      icon: "tf-ion-ios-flask-outline"
+      content: "Le maître mot du 110Lab... Sortir de sa zone de confort et innover en permanence"
 
-  - title : "Projet Collaboratif"
-    icon : "tf-ion-ios-paperplane-outline"
-    content : "Une équipe de brasseurs aux horizons variés aliant les compétenses de chacun"
+    - title: "Projet Collaboratif"
+      icon: "tf-ion-ios-paperplane-outline"
+      content: "Une équipe de brasseurs aux horizons variés aliant les compétenses de chacun"
 
-  - title : "En quête du meilleur pour vous"
-    icon : "tf-ion-ios-paperplane-outline"
-    content : "Circuit court directement du brasseur au consommateur"
+    - title: "En quête du meilleur pour vous"
+      icon: "tf-ion-ios-paperplane-outline"
+      content: "Circuit court directement du brasseur au consommateur"
 
 ############################# promo ############################
 promo:
-  enable : true
-  image : "embouteillage.jpeg"
-  title : "Des bières locales qui ont du goût !"
-  content : "Comme une odeur de houblon dans l'air ? Le 110 Lab s'affirme avec des bières de caractère !"
-
+  enable: true
+  image: "embouteillage.jpeg"
+  title: "Des bières locales qui ont du goût !"
+  content: "Comme une odeur de houblon dans l'air ? Le 110 Lab s'affirme avec des bières de caractère !"
 
 ############################# About Product #######################
 about_product:
-  enable : true
-  title : "Des bières Amienoises pas comme les autres..."
+  enable: false
+  title: "Des bières Amienoises pas comme les autres..."
   items:
     # about product item loop
-    - image : "images/beers/season.svg"
-      title : "La Saison du 110 - Chouchou de l'année 2021"
-      content : >
+    - image: "images/beers/season.svg"
+      title: "La Saison du 110 - Chouchou de l'année 2021"
+      content: >
         Rien de tel qu'une bonne bière de saison pour étancher sa soif ! Une bière équilibrée au notes
         de houblons bien présentes
 
       button:
-        enable : false
-        label : "Check Features"
-        link : "#"
+        enable: false
+        label: "Check Features"
+        link: "#"
 
     # about product item loop
     # - image : "images/beers/pint.svg"
@@ -81,39 +80,36 @@ about_product:
     #     label : "Check Features"
     #     link : "#"
 
-
 #################################### Products ########################
 products:
-  enable : true
-  title : "Nos productions"
-
+  enable: false
+  title: "Nos productions"
 
 ################################## Subscription ###################
 subscription:
-  enable : true
-  bg_image : "images/beers/wheat.svg"
-  title : "Recevoir nous nouvelles créations"
-  content : ""
-  placeholder : "Adresse Email"
-
+  enable: true
+  bg_image: "images/beers/wheat.svg"
+  title: "Recevez notre newsletter de l'association"
+  content: ""
+  placeholder: "Adresse Email"
 
 ############################## Testimonial ##########################
 testimonial:
-  enable : true
-  title : "Ils y ont goûter..."
+  enable: false
+  title: "Ils y ont goûter..."
   testimonial_item:
     # testimonial item loop
-    - name : "Brasseur Lillois"
-      designation : "Saison du 110 Lab"
-      image : "images/person-male.png"
-      content : "Bière de caractère bien équilibrée et à l'odeur de houblon bien marquée. On y retourne, on a envie de se resservir un verre !"
+    - name: "Brasseur Lillois"
+      designation: "Saison du 110 Lab"
+      image: "images/person-male.png"
+      content: "Bière de caractère bien équilibrée et à l'odeur de houblon bien marquée. On y retourne, on a envie de se resservir un verre !"
 
-    - name : "Pauline Leconte"
-      designation : "110 Lab"
-      image : "images/person-female.png"
-      content : "Des bières qui valent le détour !"
+    - name: "Pauline Leconte"
+      designation: "110 Lab"
+      image: "images/person-female.png"
+      content: "Des bières qui valent le détour !"
 
-    - name : "Antoine Maincent"
-      designation : "110 Lab"
-      image : "images/person-male.png"
-      content : "Un plaisir de boire de la bière locale et de découvrir les créations du 110 Lab"
+    - name: "Antoine Maincent"
+      designation: "110 Lab"
+      image: "images/person-male.png"
+      content: "Un plaisir de boire de la bière locale et de découvrir les créations du 110 Lab"
