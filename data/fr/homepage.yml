@@ -7,7 +7,7 @@ banner:
     pour vous faire découvrir des bières de caractère, bien faites !
   image: "images/beers/ontap.svg"
   button:
-    enable: true
+    enable: false
     label: "Voir nos dernières créations"
     link: "beers"
 
