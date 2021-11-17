@@ -38,7 +38,7 @@ price: "5.00"
 # colors : ["black","white","gray"]
 # sizes : ["33cl","75cl"]
 
-draft: false
+draft: true
 ---
 
 > Dans l'esprit de la Smash à Vienne mais travaillée avec d'autre malt pour révéler les parfums du malt Vienna dans une belle lager bien corsée !

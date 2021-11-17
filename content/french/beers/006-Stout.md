@@ -1,8 +1,12 @@
 ---
+draft: true
 title: "#006 - Stout"
 style: ["Stout"]
 date: 2020-03-01T10:31:00+01:00
 abv: 5.6
+colors:
+  light: '#38290a'
+  dark: '#563e0f'
 
 # Mash efficiency widget - Receipe details
 receipe:
@@ -35,7 +39,7 @@ price: "5.00"
 # colors : ["black","white","gray"]
 # sizes : ["33cl","75cl"]
 
-draft: false
+draft: true
 ---
 
 > Nous y voila ! Une grosse charge de houblon dans une blonde assez légère. La Impala est née !

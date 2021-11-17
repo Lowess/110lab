@@ -1,25 +1,23 @@
 {{ define "main" }}
-{{/*
+
 <section class="section">
   <div class="container">
     <div class="row">
 
       <div class="col-md-12 mb-4">
         {{ with .Params.receipe }}
-        {{- "
-        <!-- Preact component injection -->" | safeHTML }}
-        {{ partial "preact.html" (dict "widget" (dict "js" "js/widgets/mash-efficiency.js") "data" (dict "density"
-        .density "volume" .volume "malts" .malts)) }}
+        {{- "<!-- Preact component injection -->" | safeHTML }}
+        {{ partial "preact.html" (dict "widget" (dict "js" "js/widgets/mash-efficiency.js") "data" (dict "density" .density "volume" .volume "malts" .malts)) }}
         {{ end }}
       </div>
 
       <hr />
 
       <div class="col-md-5 mb-4 mb-md-0">
-        {{ partial (printf "beers/%s" (default "pint.svg" .Params.logo)) (dict "colors" (default (dict "light" "#FA9C1C"
-        "dark" "#FBB049") .Params.colors)) }}
+        {{ partial (printf "beers/%s" (default "pint.svg" .Params.logo)) (dict "colors" (default (dict "light" "#FA9C1C" "dark" "#FBB049") .Params.colors)) }}
 
         <!-- product image slider -->
+        <!--
         <div class="product-image-slider">
           {{ range .Params.images }}
           <div data-image='{{ . | absURL }}'>
@@ -29,14 +27,14 @@
           </div>
           {{ end }}
         </div>
+        -->
       </div>
       <div class="col-lg-6 col-md-7 offset-lg-1">
         <h1 class="mb-4">{{ .Title }}</h1>
         {{ with site.Params.snipcart.api }}
         {{ with .Params.sizes }}<p><strong>Sizes: </strong>{{ delimit . ", " | title}}</p>{{ end }}
         <p class="price py-4">
-          {{if
-          .Params.discount_price}}{{site.Params.currency}}{{.Params.discount_price}}{{else}}{{site.Params.currency}}{{.Params.price}}{{end}}
+          {{if .Params.discount_price}}{{site.Params.currency}}{{.Params.discount_price}}{{else}}{{site.Params.currency}}{{.Params.price}}{{end}}
           {{if .Params.discount_price}}<s class="price">{{site.Params.currency}}{{ .Params.price }}</s>{{end}}
         </p>
         <button class="snipcart-add-item btn btn-main mb-5"
@@ -55,5 +53,5 @@
     </div>
   </div>
 </section>
-*/}}
+
 {{ end }}
