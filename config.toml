@@ -14,6 +14,13 @@ defaultContentLanguage = "fr"
 removePathAccents = true
 theme = "../.."
 
+enableEmoji = true
+
+[security]
+  enableInlineShortcodes = true
+  [security.exec]
+    allow = ['^babel', '^dart-sass-embedded$', '^go$', '^npx$', '^postcss$']
+
 
 # unsafe html
 [markup.goldmark.renderer]

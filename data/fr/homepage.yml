@@ -14,7 +14,7 @@ banner:
 ############################# Feature ############################
 features:
   enable: true
-  title: "L'expérimentation au coeur de la brasserie"
+  title: "L'expérimentation brassericole associative"
   image: "images/beers/pint.svg"
 
   # feature at the left of the image
@@ -48,9 +48,11 @@ features:
 ############################# promo ############################
 promo:
   enable: true
-  image: "embouteillage.jpeg"
-  title: "Des bières locales qui ont du goût !"
-  content: "Comme une odeur de houblon dans l'air ? Le 110 Lab s'affirme avec des bières de caractère !"
+  image: "images/blog/110-kermesse-biere-guinguette.gif"
+  title: "La Kermesse Guinguette Bières du 110Lab"
+  content: >
+    Rejoignez nous le 28 Mai 2022 à partir de midi pour la Kermesse du 110Lab ! Venez partager un moment de convivialité autour d’un bon poulet rôti accompagné de bonnes bières ! Pas de Kermesse sans jeux, on vous réserve quelques surprises pour la journée !
+  cta: blog/2022-04-12-kermesse-guinguette-bieres/
 
 ############################# About Product #######################
 about_product:
