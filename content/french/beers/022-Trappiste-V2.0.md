@@ -1,27 +1,24 @@
 ---
-title: "#015 - Birgit La Blanche"
-style: ["lager", "whit"]
-date: 2021-03-07T12:32:00+01:00
-abv: 5.5
-logo: flute.svg
+title: "#022 - Trappiste V2.0"
+style: ["trappiste", "belgian", "triple"]
+date: 2021-07-04T09:35:00+01:00
+abv: 10.0
+logo: pint.svg
 colors:
-  light: '#ffffb7'
-  dark: '#fff8a5'
-
+  light: '#fe9031'
+  dark: '#ff8800'
 # Mash efficiency widget - Receipe details
 receipe:
   # Malts used in grams
   malts:
     - name: pilsner
-      quantity: 2000
+      quantity: 11910
+    - name: rye
+      quantity: 2120
     - name: wheat-malt
-      quantity: 2000
-    - name: wheat
-      quantity: 800
-    - name: sugar
-      quantity: 200
-  density: 1.052
-  volume: 20
+      quantity: 3970
+  density: 1.095
+  volume: 40
 
 images:
   - "images/beers/pint.svg"

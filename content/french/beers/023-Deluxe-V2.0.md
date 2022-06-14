@@ -1,27 +1,24 @@
 ---
-title: "#015 - Birgit La Blanche"
-style: ["lager", "whit"]
-date: 2021-03-07T12:32:00+01:00
-abv: 5.5
+title: "#023 - Deluxe V2.0"
+style: ["delux", "belgian"]
+date: 2021-07-04T09:45:00+01:00
+abv: 10.0
 logo: flute.svg
 colors:
-  light: '#ffffb7'
-  dark: '#fff8a5'
-
+  light: '#fcf45d'
+  dark: '#fcec5d'
 # Mash efficiency widget - Receipe details
 receipe:
   # Malts used in grams
   malts:
     - name: pilsner
-      quantity: 2000
+      quantity: 11910
+    - name: rye
+      quantity: 2120
     - name: wheat-malt
-      quantity: 2000
-    - name: wheat
-      quantity: 800
-    - name: sugar
-      quantity: 200
-  density: 1.052
-  volume: 20
+      quantity: 3970
+  density: 1.095
+  volume: 40
 
 images:
   - "images/beers/pint.svg"

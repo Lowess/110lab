@@ -5,8 +5,9 @@ date: 2021-06-10T08:35:00+01:00
 abv: 7.0
 logo: pint.svg
 colors:
-  light: '#fe9031'
-  dark: '#ff8800'
+  light: '#fdc43f'
+  dark: '#ffda3d'
+
 # Mash efficiency widget - Receipe details
 receipe:
   # Malts used in grams
@@ -38,7 +39,7 @@ price: "5.00"
 # colors : ["black","white","gray"]
 # sizes : ["33cl","75cl"]
 
-draft: false
+draft: true
 ---
 
 > Dans l'esprit de la Smash à Vienne mais travaillée avec d'autre malt pour révéler les parfums du malt Vienna dans une belle lager bien corsée !

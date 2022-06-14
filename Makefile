@@ -3,6 +3,9 @@
 install:
 	npm install
 
+preview:
+	npm run preview
+
 run:
 	npm start
 

@@ -9,6 +9,8 @@
         {{ with $.Page.Resources.GetMatch .image }}
             {{ $image := .Resize "x600" | images.Filter (images.Grayscale) }}
             <img class="img-fluid rounded" src='{{ $image.RelPermalink  }}'  alt="{{ .Title }}"/>
+        {{ else }}
+          <img class="img-fluid rounded" src='{{ .image }}'  alt="{{ .Title }}"/>
         {{ end }}
       </div>
       <div class="col-md-6 align-self-center text-center text-md-left">
@@ -16,6 +18,9 @@
           <h2 class="subheading font-weight-bold mb-10">{{ .title | markdownify }}</h2>
           <p>{{ .content | markdownify }}</p>
         </div>
+        {{ with .cta }}
+          <a class="btn btn-inverted" href="{{ . | absURL }}">En savoir plus...</a>
+        {{ end }}
       </div>
     </div>
   </div>

@@ -14,6 +14,13 @@ defaultContentLanguage = "fr"
 removePathAccents = true
 theme = "../.."
 
+enableEmoji = true
+
+[security]
+  enableInlineShortcodes = true
+  [security.exec]
+    allow = ['^babel', '^dart-sass-embedded$', '^go$', '^npx$', '^postcss$']
+
 
 # unsafe html
 [markup.goldmark.renderer]
@@ -55,10 +62,10 @@ name = "110 Lab"
 URL = "/"
 weight = 1
 
-[[menu.main]]
-name = "Nos Bières"
-URL = "beers"
-weight = 2
+# [[menu.main]]
+# name = "Nos Bières"
+# URL = "beers"
+# weight = 2
 
 [[menu.main]]
 name = "Boutique"
@@ -91,10 +98,10 @@ name = "110 Lab"
 URL = "/"
 weight = 1
 
-[[menu.footer]]
-name = "Nos Bières"
-URL = "beers"
-weight = 2
+# [[menu.footer]]
+# name = "Nos Bières"
+# URL = "beers"
+# weight = 2
 
 [[menu.footer]]
 name = "Boutique"

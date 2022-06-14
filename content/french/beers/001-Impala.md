@@ -30,7 +30,7 @@ price: "5.00"
 # colors : ["black","white","gray"]
 # sizes : ["33cl","75cl"]
 
-draft: false
+draft: true
 ---
 
 > Nous y voila ! Une grossee charge de houblon dans une blonde assez légère. La Impala est née !
