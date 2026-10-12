@@ -11,6 +11,11 @@
             </li>
             {{ end }}
           </ul>
+          <nav class="footer-legal" aria-label="Informations sur les services 110lab">
+            <a href="{{ "services/" | relLangURL }}">Services internes</a>
+            <a href="{{ "confidentialite/" | relLangURL }}">Politique de confidentialité</a>
+            <a href="{{ "conditions-utilisation/" | relLangURL }}">Conditions d'utilisation</a>
+          </nav>
           <p class="copyright-text">{{ site.Params.copyright | markdownify }}</p>
         </div>
       </div>

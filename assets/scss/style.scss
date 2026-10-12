@@ -463,6 +463,20 @@ a:active {
   }
 }
 
+.footer-legal {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px 24px;
+  margin-top: 16px;
+
+  a {
+    color: #444;
+    font-size: 14px;
+    text-decoration: underline;
+  }
+}
+
 footer {
   text-align: center;
   background: #f4f4f4;

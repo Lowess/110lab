@@ -7,17 +7,20 @@
   "scripts": {
     "lint": "eslint src",
     "start": "run-p start:**",
-    "start:hugo": "hugo serve --disableFastRender -d public -vw",
+    "start:hugo": "hugo server --disableFastRender --destination public",
     "preview": "run-p preview:**",
     "preview:hugo": "npm run start:hugo -- -D -F",
     "prebuild": "rm -rf public",
     "build": "npm run build:hugo",
     "build:preview": "npm run build:hugo:preview",
-    "build:hugo": "hugo -d public -v -b ${BASE_URL:-/}",
+    "build:hugo": "hugo --destination public --baseURL \"${BASE_URL:-/}\"",
     "build:hugo:preview": "npm run build:hugo -- -D -F"
   },
   "author": "",
   "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
   "devDependencies": {
     "@babel/cli": "^7.15.4",
     "@babel/core": "^7.15.5",
@@ -28,7 +31,7 @@
     "@babel/preset-env": "^7.15.4",
     "@babel/preset-typescript": "^7.15.0",
     "babel-loader": "^8.2.2",
-    "hugo-bin-extended": "^0.80.0",
+    "hugo-bin-extended": "0.145.0",
     "npm-run-all": "^4.1.5"
   },
   "dependencies": {
