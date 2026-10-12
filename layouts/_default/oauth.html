@@ -1,0 +1,17 @@
+{{ define "main" }}
+<main class="oauth-page">
+  <section class="oauth-hero" aria-labelledby="oauth-title">
+    <div class="container">
+      <p class="oauth-eyebrow">{{ .Params.eyebrow }}</p>
+      <h1 id="oauth-title">{{ .Title }}</h1>
+      <p class="oauth-lead">{{ .Description }}</p>
+    </div>
+  </section>
+
+  <div class="container">
+    <article class="oauth-copy">
+      {{ .Content }}
+    </article>
+  </div>
+</main>
+{{ end }}
